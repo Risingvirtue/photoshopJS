@@ -17,11 +17,14 @@
 			canvas{
 				display: none;
 			}
-			#render {
+			.absolute {
 				position: absolute;
 				left: 50%;
 				top: 50%;
 				transform: translate(-50%,-50%);
+			}
+			#render {
+				
 				width: 150px;
 				height: 100px;
 				border: 2px solid black;
@@ -34,7 +37,8 @@
 		<div class="container-fluid">
 			<div class="row text-center">
 				<div>
-					<button id="render" class="btn" onclick="render()">Render</button>
+					<button id="render" class="btn absolute" onclick="render()">Render</button>
+					<p id="message" class="absolute" style="color: green"></p>
 				</div>				
 				<canvas id="canvas" height="1000" width= "1000" style="border-style: solid; border-width: 3px;"></canvas>
 				<canvas id="1" style="border-style: solid; border-width: 3px; border-color: red"></canvas>

@@ -12,18 +12,19 @@ $(document).ready(function() {
 	socket = io.connect('http://localhost:3000');
 	
 	socket.on('images', makeImages);
-	
+	socket.on('saved', saveMessage);
 })
 
 function render() {
 	socket.emit('render');
+	$("#render").css('visibility', 'hidden');
 }
 
 var img1Info = [];
 var img2Info = [];
 
 function makeImages(data) {
-	console.log(data);
+	
 	for (var i = 0; i < data.imgData1.length; i++) {
 		var imgData1 = data.imgData1[i].actualData;
 		var img1 = new Image();
@@ -39,15 +40,12 @@ function makeImages(data) {
 		img2.src = imgData2;
 
 	}
-		
-	
-	
+
 	setTimeout(function() {
 		
 		for (var i = 0; i< data.imgData1.length; i++) {
 			for (var j = 0; j < data.imgData2.length; j++) {
 				var name = data.imgData1[i].name + ' ' + data.imgData2[j].name;
-				console.log(name);
 				changePixel(img1Info[i], img2Info[j]);
 				saveCanvas(name);
 			}
@@ -101,8 +99,6 @@ function changePixel(img1, img2) {
 		}
 
 	}
-	
-
 }
 
 function resetCanvas() {
@@ -116,4 +112,8 @@ function resetCanvas() {
 function saveCanvas(name) {
 	var newImgData = canvas.toDataURL('image/jpeg', 1.0).slice(23);
 	socket.emit('saveNewImg', {newName: name, newImgData: newImgData});
+}
+
+function saveMessage(data) {
+	$("#message").html('File ' + data + ' has been saved.');	
 }

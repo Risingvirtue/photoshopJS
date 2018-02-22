@@ -56,6 +56,7 @@ function newConnection(socket) {
 		fs.writeFile(saveFolder + '\\' + data.newName + '.jpeg', data.newImgData, 'base64', function(err){
 			if (err) throw err
 			console.log('File ' + data.newName + ' saved.')
+			socket.emit('saved', data.newName);
 		})
 	}
 	
