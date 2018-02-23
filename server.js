@@ -15,8 +15,8 @@ var io = socket(server);
 io.sockets.on('connection', newConnection);
 
 var directory = path.dirname(process.argv[1]);
-var folder1 = directory + '\\img\\Combo1';
-var folder2 = directory + '\\img\\Combo2';
+var folder1 = directory + '\\img\\group 1';
+var folder2 = directory + '\\img\\group 2';
 var saveFolder = directory + '\\img\\Result';
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
@@ -71,7 +71,6 @@ function newConnection(socket) {
 		fs.writeFile(saveFolder + '\\' + data.newName + '.jpeg', data.newImgData, 'base64', function(err){
 			if (err) throw err
 			console.log('File ' + data.newName + ' saved.')
-			socket.emit('saved', data.newName);
 		})
 	}
 	

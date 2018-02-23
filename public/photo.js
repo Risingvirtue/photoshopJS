@@ -13,6 +13,7 @@ $(document).ready(function() {
 	socket = io.connect('http://localhost:3000');
 	socket.on('images', makeImages);
 	
+	
 })
 
 function render() {
@@ -97,13 +98,15 @@ function renderAndSave() {
 }
 
 function changePixelTop(img1) {
+	var marginLeft = 25;
+	var marginTop = 25;
 	var row = 0;
 	var col = 0;
 	for (var i = 0, n = img1.length; i < n; i += 4) {
 		var img1Pix = {r: img1[i], g: img1[i+1], b: img1[i+ 2], a: img1[i+3]};
 		ctx.fillStyle = 'rgba(' + img1Pix.r + ',' + img1Pix.g + ',' + img1Pix.b + ',' + img1Pix.a + ')';
-		ctx.clearRect(col, row, 1,1);
-		ctx.fillRect(col, row, 1,1);
+		ctx.clearRect(col + marginLeft, row + marginTop , 1,1);
+		ctx.fillRect(col + marginLeft, row + marginTop, 1,1);
 		col++;
 		if (col >= 575) {
 			col = 0;
@@ -115,12 +118,14 @@ function changePixelTop(img1) {
 function changePixelBottom(img2) {
 	var row = 0;
 	var col = 0;
+	var marginRight = 25;
+	var marginBottom = 25;
 	for (var i = 0, n = img2.length; i < n; i += 4) {
 		
 		var img2Pix = {r: img2[i], g: img2[i+1], b: img2[i+ 2], a: img2[i+3]};
 		ctx.fillStyle = 'rgba(' + img2Pix.r + ',' + img2Pix.g + ',' + img2Pix.b + ',' + img2Pix.a + ')';
-		ctx.clearRect(col + 575, row + 575, 1, 1);
-		ctx.fillRect(col + 575, row + 575, 1, 1);
+		ctx.clearRect(col + 575 - marginRight, row + 575 - marginBottom, 1, 1);
+		ctx.fillRect(col + 575 - marginRight, row + 575 - marginBottom, 1, 1);
 		col++;
 		if (col >= 425) {
 			col = 0;
