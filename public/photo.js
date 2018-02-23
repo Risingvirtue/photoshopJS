@@ -52,9 +52,7 @@ function makeImages(data) {
 				drawPlus();
 				saveMessage(name);
 				saveCanvas(name);
-				
-				
-				
+
 			}
 		}	
 	} , 0)
