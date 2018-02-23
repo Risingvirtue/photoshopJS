@@ -24,29 +24,44 @@ function newConnection(socket) {
 	socket.on('render', render);
 	
 	function render() {
-		console.log('rendering');
+		console.log('Start!');
 		var files1 = fs.readdirSync(folder1);
 		var files2 = fs.readdirSync(folder2);
-
+		//console.log(files1, files2);
 		var imgData1 = [];
 		var imgData2 = [];
 
 		for (img of files1) {
+			
+			if (img.indexOf('.') == 0) {
+				continue;
+			}
+			
 			var actualImg = getImage(folder1 + '\\' + img);
 			var actualData = "data:image/png;base64,"+ actualImg.toString("base64");
 			var name = img.split('.')[0];
+			name = name.split('_')[0].slice(name.indexOf('-') + 1);
+			
+			
 			imgData1.push({name: name, actualData: actualData});
 		}
 
 		for (img of files2) {
+			if (img.indexOf('.') == 0) {
+				continue;
+			}
 			var actualImg = getImage(folder2 + '\\' + img);
 			var actualData = "data:image/png;base64,"+ actualImg.toString("base64");
 			var name = img.split('.')[0];
+			name = name.split('_')[0];
+			name = name.slice(name.indexOf('-') + 1);
+			
 			imgData2.push({name: name, actualData: actualData});
 		}
-		
+		console.log
 
 		socket.emit('images', {imgData1: imgData1, imgData2: imgData2});
+		console.log('rendering');
 	}
 	
 	socket.on('saveNewImg', saveNewImg);
