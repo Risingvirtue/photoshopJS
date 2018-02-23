@@ -11,9 +11,8 @@ ctx2 = canvas2.getContext('2d');
 $(document).ready(function() {
 	//listening to localhost 3000
 	socket = io.connect('http://localhost:3000');
-	
 	socket.on('images', makeImages);
-	socket.on('saved', saveMessage);
+	
 })
 
 function render() {
@@ -23,9 +22,10 @@ function render() {
 
 var img1Info = [];
 var img2Info = [];
-
+var imgInfoLine = [];
+var index = 0;
 function makeImages(data) {
-	console.log(data);
+	
 	//gets image data for everything
 	for (var i = 0; i < data.imgData1.length; i++) {
 		var imgData1 = data.imgData1[i].actualData;
@@ -41,22 +41,16 @@ function makeImages(data) {
 	}
 	//creates new images from all combinations and saves them
 	setTimeout(function() {
+		var total = data.imgData1.length * data.imgData2.length;
+		var count = 0;
 		for (var i = 0; i< data.imgData1.length; i++) {
 			for (var j = 0; j < data.imgData2.length; j++) {
 				var name = data.imgData1[i].name + '-' + data.imgData2[j].name + '-ebay';
-				
-				console.log(name);
-				resetCanvas();
-				changePixelTop(img1Info[i]);
-				changePixelBottom(img2Info[j]);
-				drawPlus();
-				saveMessage(name);
-				saveCanvas(name);
-
+				imgInfoLine.push({img1: img1Info[i], img2: img2Info[j], name: name})
 			}
-		}	
+		}
+		setTimeout(renderAndSave, 0);
 	} , 0)
-
 }
 
 function renderImgTop() {
@@ -80,6 +74,27 @@ function renderImgBottom() {
 	img2Info.push(imgd2.data);
 	
 }
+function renderAndSave() {
+	var img1 = imgInfoLine[index].img1;
+	var img2 = imgInfoLine[index].img2;
+	var name = imgInfoLine[index].name;
+	//console.log(index * 100 / imgInfoLine.length);
+	
+	
+	resetCanvas();
+	changePixelTop(img1);
+	changePixelBottom(img2);
+	drawPlus(545,575);
+	
+	saveCanvas(name);
+	
+	index++;
+	var percent = Math.round(index * 100 / imgInfoLine.length);
+	saveMessage(percent, name);
+	if (index < imgInfoLine.length) {
+		setTimeout(renderAndSave, 0);
+	}
+}
 
 function changePixelTop(img1) {
 	var row = 0;
@@ -89,7 +104,6 @@ function changePixelTop(img1) {
 		ctx.fillStyle = 'rgba(' + img1Pix.r + ',' + img1Pix.g + ',' + img1Pix.b + ',' + img1Pix.a + ')';
 		ctx.clearRect(col, row, 1,1);
 		ctx.fillRect(col, row, 1,1);
-		
 		col++;
 		if (col >= 575) {
 			col = 0;
@@ -104,11 +118,9 @@ function changePixelBottom(img2) {
 	for (var i = 0, n = img2.length; i < n; i += 4) {
 		
 		var img2Pix = {r: img2[i], g: img2[i+1], b: img2[i+ 2], a: img2[i+3]};
-		
 		ctx.fillStyle = 'rgba(' + img2Pix.r + ',' + img2Pix.g + ',' + img2Pix.b + ',' + img2Pix.a + ')';
 		ctx.clearRect(col + 575, row + 575, 1, 1);
 		ctx.fillRect(col + 575, row + 575, 1, 1);
-		
 		col++;
 		if (col >= 425) {
 			col = 0;
@@ -121,13 +133,19 @@ function resetCanvas() {
 	ctx.clearRect(0,0, canvas.width, canvas.height);
 	ctx.fillStyle = 'white';
 	ctx.fillRect(0,0, canvas.width, canvas.height)
-
 }
 
-function drawPlus() {
+function drawPlus(x, y) {
+	var width = 20;
+	var height = 80;
 	ctx.fillStyle = 'red';
-	ctx.fillRect(565,525, 20, 80);
-	ctx.fillRect(535,555, 80, 20);
+	ctx.fillRect(x - width / 2, y - height / 2, width, height);
+	ctx.fillRect(x - height / 2,y - width /2 , height, width);
+	/*
+	ctx.rect(0,0, 575, 575);
+	ctx.rect(575, 575, 425, 425);
+	ctx.stroke();
+	*/
 }
 
 function saveCanvas(name) {
@@ -135,6 +153,9 @@ function saveCanvas(name) {
 	socket.emit('saveNewImg', {newName: name, newImgData: newImgData});
 }
 
-function saveMessage(data) {
-	$("#message").html('File ' + data + ' is being rendered.');	
+function saveMessage(percent, name) {
+	$("#percent").html(percent + '% complete.')
+	$("#message").html('File ' + name + ' is being rendered. \n');
+	
+	
 }

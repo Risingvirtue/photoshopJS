@@ -15,8 +15,8 @@ var io = socket(server);
 io.sockets.on('connection', newConnection);
 
 var directory = path.dirname(process.argv[1]);
-var folder1 = directory + '\\img\\group 1';
-var folder2 = directory + '\\img\\group 2';
+var folder1 = directory + '\\img\\Combo1';
+var folder2 = directory + '\\img\\Combo2';
 var saveFolder = directory + '\\img\\Result';
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
