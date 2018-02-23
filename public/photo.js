@@ -81,11 +81,10 @@ function renderAndSave() {
 	var name = imgInfoLine[index].name;
 	//console.log(index * 100 / imgInfoLine.length);
 	
-	
 	resetCanvas();
 	changePixelTop(img1);
 	changePixelBottom(img2);
-	drawPlus(545,575);
+	drawPlus(575,575);
 	
 	saveCanvas(name);
 	
@@ -98,8 +97,8 @@ function renderAndSave() {
 }
 
 function changePixelTop(img1) {
-	var marginLeft = 25;
-	var marginTop = 25;
+	var marginLeft = 0;
+	var marginTop = 0;
 	var row = 0;
 	var col = 0;
 	for (var i = 0, n = img1.length; i < n; i += 4) {
