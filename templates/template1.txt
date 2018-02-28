@@ -1,0 +1,40 @@
+
+	<tr>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
+		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
+          <a style="text-decoration:none; color:#333333;" href="{urlcomponent1}"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="{itemimagesdetail1}" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td width="320" height="280" bgcolor="#ffffff">
+          <a style="text-decoration:none; color:#333333;" href="{urlcomponent2}"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="{itemimagesdetail2}" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
+	</tr>
+	<tr>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>{itemid1}</p>
+          <a style="text-decoration:none; color:#333333;" href="{urlcomponent1}"><p style="font-weight:bold; font-size: 20px; margin:0px">{displayname1}</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">{pricelevel2formatted1}</span><strong style="margin-left:10px; color:red; font-size: 22px;">{pricelevel7formatted1}</strong>
+          </p>
+          <a style="text-decoration:none" href="{urlcomponent1}">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+        </td>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>{itemid2}</p>
+          <a style="text-decoration:none; color:#333333;" href="{urlcomponent2}">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">{displayname2} 
+          </a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">{pricelevel2formatted2}</span><strong style="margin-left:10px; color:red; font-size: 22px;">{pricelevel7formatted2}</strong>
+          </p>
+          <a style="text-decoration:none" href="{urlcomponent2}">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+      </td>
+	</tr>
+  

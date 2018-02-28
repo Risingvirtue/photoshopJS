@@ -1,0 +1,366 @@
+<form>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2780-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155983">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 4-1/2 - 5" Grinder, Paddle Switch No-Lock w/ 1 Batt <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2780-21-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-w-1-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2721-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="363928">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL ONE-KEY SAWZALL Kit w/ XC Batteries and Charger <b class="tile-our-price">Our Price: $449.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2731-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="314034">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 7-1/4" Circular Saw-2 Batt Kit <b class="tile-our-price">Our Price: $429.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2730-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155973">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 6-1/2" Circular Saw Kit with 2 Batteries <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2730-22-M18-FUEL-6-1-2-Circular-Saw-Kit-with-2-Batteries" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2731-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="314033">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 7-1/4” Circular Saw Kit <b class="tile-our-price">Our Price: $329.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2719-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="387788">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL Hackzall Kit <b class="tile-our-price">Our Price: $249.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2720-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155970">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL SAWZALL Reciprocating Saw Kit with 2 Batteries <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2720-22-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-2-Batteries" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2780-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155984">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 4-1/2 - 5" Grinder, Paddle Switch No-Lock Kit w/ 2 <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2720-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155969">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL SAWZALL Reciprocating Saw Kit with 1 Battery <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2720-21-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-1-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2730-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155972">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 6-1/2" Circular Saw Kit with 1 Battery <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2781-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155987">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 4-1/2 - 5" Grinder, Slide Switch Lock-On Kit w/ 2 B <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2781-22-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-Kit-w-2-Batteries" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2810-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="384446">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL Mud Mixer with 180° Handle Kit <b class="tile-our-price">Our Price: $349.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2810-22-M18-FUEL-Mud-Mixer-with-180-Handle-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2781-21_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155986">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 4-1/2 - 5" Grinder, Slide Switch Lock-On w/ 1 Batte <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2781-21-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-w-1-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2784-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="372428">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 1/4" Die Grinder Kit with 2 Batteries <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2784-22-M18-FUEL-1-4-Die-Grinder-Kit-with-2-Batteries" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2782-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="375514">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL 5-3/8" - 5-7/8" Metal Circular Saw Kit <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2782-22-M18-FUEL-5-3-8-5-7-8-Metal-Circular-Saw-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2783-22_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="337774">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 FUEL Cordless 4-1/2" / 5" Braking Grinder Tool Kit <b class="tile-our-price">Our Price: $449.00</b></p>
+        <p><a href="http://www.toolup.com/Milwaukee-2783-22-M18-FUEL-Cordless-4-1-2-5-Braking-Grinder-Tool-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+</form>
+<h2 class="form-title top-border">Choose your free item to go with it</h2>
+<form>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-0882-20_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="365690">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 Compact Vacuum <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Milwaukee-0882-20-M18-Compact-Vacuum" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/2361-20_1_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="155948">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 LED Flood Light <b class="tile-our-price">$79.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Milwaukee-2361-20-M18-LED-Flood-Light" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-2365-20_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="385714">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 ROVER Mounting Flood Light <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Milwaukee-2365-20-M18-ROVER-Mounting-Flood-Light" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-0880-20_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="1886">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18 2-Gallon Wet/Dry Vacuum <b class="tile-our-price">$89.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Milwaukee-0880-20-18V-Wet-Dry-Vacuum-No-Battery-Charger" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="http://www.toolup.com/product-images/Milwaukee-48-11-1850_1_1.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="316374">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>M18™ REDLITHIUM™ XC5.0 Extended Capacity Battery Pack <b class="tile-our-price">$129.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Milwaukee-48-11-1850-M18-Redlithium-XC-5-0-Extended-Capacity-Battery-Pack" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+  <div class="con-button">
+  <input type="hidden" name="promocode" value="1231" />
+  <input type="submit" class="button-promo" value="Add Selection To Cart" data-action="submitPromo" /> 
+  </div>
+  </form>

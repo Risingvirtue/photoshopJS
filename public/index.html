@@ -13,30 +13,14 @@
 		
 		<!-- Socket.io-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
-		<style>
-			canvas{
-				display: none;
-			}
-			.absolute {
-				position: absolute;
-				left: 50%;
-				top: 50%;
-				transform: translate(-50%,-50%);
-			}
-			#render {
-				
-				width: 150px;
-				height: 100px;
-				border: 2px solid black;
-				
-			}
-			
-		</style>
+		<link rel="stylesheet" type="text/css" href="photo.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row text-center">
+				
 				<div>
+					<button id='cyoa' class="btn absolute" onclick='generateCYOA()'>Generate CYOA</button>
 					<button id="render" class="btn absolute" onclick="render()">Render</button>
 					<p id="message" class="absolute" style="color: green"></p>
 					<p id="percent" class="absolute" style="color: green; margin-top: 25px;"></p>
@@ -44,10 +28,21 @@
 				<canvas id="canvas" height="1000" width= "1000" style="border-style: solid; border-width: 3px;"></canvas>
 				<canvas id="1" style="border-style: solid; border-width: 3px; border-color: red"></canvas>
 				<canvas id="2" style="border-style: solid; border-width: 3px; border-color: blue"></canvas>
-
+				
+				<div class="row">
+					<label class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></label>
+					<div class='col-lg-6 col-md-6 col-sm-3 col-xs-3'>
+						<textarea id="normal" style="width: 100%; margin-top: 50px"></textarea>
+						
+						<button id="copy" onclick="copy()" style="width: 200px; height: 200px">COPY</button>
+					</div>
+					
+					
+				</div>
+				
 			</div>
 		</div>
-		
-		<script src="photo.js"></script>
+		<script src='photo.js'></script>
+		<script src="viewer.js"></script>
 	</body>
 </html>

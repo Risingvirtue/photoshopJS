@@ -12,13 +12,12 @@ $(document).ready(function() {
 	//listening to localhost 3000
 	socket = io.connect('http://localhost:3000');
 	socket.on('images', makeImages);
-	
-	
 })
 
 function render() {
 	socket.emit('render');
-	$("#render").css('visibility', 'hidden');
+	$("#render").css('display', 'none');
+	$("#cyoa").css('display', 'none');
 }
 
 var img1Info = [];
@@ -26,7 +25,7 @@ var img2Info = [];
 var imgInfoLine = [];
 var index = 0;
 function makeImages(data) {
-	
+	$("#message").html('Files are currently being rendered.');
 	//gets image data for everything
 	for (var i = 0; i < data.imgData1.length; i++) {
 		var imgData1 = data.imgData1[i].actualData;
@@ -79,7 +78,7 @@ function renderAndSave() {
 	var img1 = imgInfoLine[index].img1;
 	var img2 = imgInfoLine[index].img2;
 	var name = imgInfoLine[index].name;
-	//console.log(index * 100 / imgInfoLine.length);
+	
 	
 	resetCanvas();
 	changePixelTop(img1);
@@ -93,6 +92,14 @@ function renderAndSave() {
 	saveMessage(percent, name);
 	if (index < imgInfoLine.length) {
 		setTimeout(renderAndSave, 0);
+	} else {
+		
+		$("#percent").fadeOut(1000);
+		$("#message").fadeOut(1000,function(err) {
+			$('#cyoa').fadeIn('slow');
+			$('#render').fadeIn('slow');
+			resetInfo();
+		});	
 	}
 }
 
@@ -153,13 +160,24 @@ function drawPlus(x, y) {
 }
 
 function saveCanvas(name) {
+	//gets rid of header
 	var newImgData = canvas.toDataURL('image/jpeg', 1.0).slice(23);
 	socket.emit('saveNewImg', {newName: name, newImgData: newImgData});
 }
 
 function saveMessage(percent, name) {
+	console.log('savingmessage');
 	$("#percent").html(percent + '% complete.')
 	$("#message").html('File ' + name + ' is being rendered. \n');
-	
-	
+}
+
+function resetInfo() {
+	img1Info = [];
+	img2Info = [];
+	imgInfoLine = [];
+	index = 0;
+	$("#percent").html('');
+	$("#message").html('');
+	$("#percent").css('display', 'block');
+	$("#message").css('display', 'block');
 }

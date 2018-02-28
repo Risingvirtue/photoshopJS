@@ -1,0 +1,5 @@
+  <div class="con-button">
+  <input type="hidden" name="promocode" value="{promocode}" />
+  <input type="submit" class="button-promo" value="Add Selection To Cart" data-action="submitPromo" /> 
+  </div>
+  </form>
