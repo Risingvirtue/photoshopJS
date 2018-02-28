@@ -117,8 +117,6 @@ module.exports = {
 				
 			})
 	}
-
-	
 }
 
 function getURL(obj){

@@ -86,14 +86,13 @@ function renderAndSave() {
 	drawPlus(575,575);
 	
 	saveCanvas(name);
-	
 	index++;
-	var percent = Math.round(index * 100 / imgInfoLine.length);
+	var percent = Math.round((index -1)  * 100 / imgInfoLine.length);
 	saveMessage(percent, name);
 	if (index < imgInfoLine.length) {
 		setTimeout(renderAndSave, 0);
 	} else {
-		
+		saveMessage(100, name);
 		$("#percent").fadeOut(1000);
 		$("#message").fadeOut(1000,function(err) {
 			$('#cyoa').fadeIn('slow');
@@ -166,7 +165,6 @@ function saveCanvas(name) {
 }
 
 function saveMessage(percent, name) {
-	console.log('savingmessage');
 	$("#percent").html(percent + '% complete.')
 	$("#message").html('File ' + name + ' is being rendered. \n');
 }

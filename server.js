@@ -37,11 +37,7 @@ function newConnection(socket) {
 		var getItemData = [], getItems = [], numGetItems = 0;
 		
 		templates = netsuite.getTemplates();
-		
-		console.log(Object.keys(templates).length);
-		
-		
-		
+	
 		netsuite.getItemId(csvPath, function(err, data) {
 			numBuyItems = data.buyItems.length;
 			for (var i = 0; i < data.buyItems.length / 10; i++) {
@@ -109,8 +105,6 @@ function newConnection(socket) {
 						});
 					})
 				})
-				
-				
 			}
 		}, 1000);
 
@@ -168,9 +162,6 @@ function newConnection(socket) {
 			console.log('File ' + data.newName + ' saved.')
 		})
 	}
-	
-	
-	
 }
 
 
@@ -208,8 +199,7 @@ function fillTemplate(items, callback){
 				outputBlocks.push(template);
 			} 		
 		}
-		
-		
+
 		callback(null, outputBlocks.join('\n'));
 	});
 }
