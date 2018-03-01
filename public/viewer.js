@@ -8,10 +8,8 @@ $(document).ready(function() {
 })
 
 function generateCYOA() {
-	
-	$('#cyoa').css('display', 'none');
-	$('#render').css('display', 'none');
-	
+	$("body").css({"background-color":"white"}); 
+	$('#sunImage').css('display', 'none');
 	socket.emit('renderJSON', {});
 }
 
@@ -20,8 +18,8 @@ function output() {
 	$('#message').html('Files have been saved.');
 	
 	$('#message').fadeOut(1000,function(err) {
-		$('#cyoa').fadeIn('slow');
-		$('#render').fadeIn('slow');
+		
+		$('#sunImage').fadeIn('slow');
 		resetInfo();
 	});
 }

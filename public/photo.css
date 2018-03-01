@@ -1,3 +1,6 @@
+body {
+  background:#2EB5E5 ;
+}
 canvas{
 	display: none;
 }
@@ -31,5 +34,59 @@ canvas{
 }
 			
 #copy {
+	display: none;
+}
+
+.half-circle {
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    border-bottom-left-radius: 105px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 105px; /* 100px of height + 10px of border */
+    border: 5px solid black;
+	margin-top: 150px;
+	background-color: rgb(255,192,203);
+}
+
+.open {
+	width: 80px;
+	height: 80px;
+	margin-top: 150px;
+	background-color: rgb(255,192,203);
+	border: 5px solid black;
+	border-radius: 100%;
+	display: none;
+}
+#middle {
+	width: 50px;
+	height: 0px;
+	border: 5px solid black;
+}
+
+#sun {
+	width: 600px;
+	height: 600px;
+	border: 5px solid black;
+	border-radius: 100%;
+	background-color: rgb(255,255,224);
+	margin-top: 25px;
+	z-index: -1;
+}
+
+.eye {
+	width: 100px;
+    height: 50px; /* as the half of the width */
+    border-top-left-radius: 55px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 55px; /* 100px of height + 10px of border */
+    border: 5px solid black;
+	border-bottom: 0;
+}
+
+#leftEye {
+	margin-left: -100px;
+	display: none;
+}
+
+#rightEye {
+	margin-left: 100px;
 	display: none;
 }

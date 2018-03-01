@@ -19,27 +19,23 @@
 		<div class="container-fluid">
 			<div class="row text-center">
 				
-				<div>
+				<div id="sunImage">
 					<button id='cyoa' class="btn absolute" onclick='generateCYOA()'>Generate CYOA</button>
 					<button id="render" class="btn absolute" onclick="render()">Render</button>
+						<div class="half-circle absolute"></div>
+						<div id='middle' class="absolute"></div>
+						<div id="sun" class = "absolute"></div>
+						<div class="absolute open"></div>
+						<div id='leftEye' class="absolute eye"></div>
+						<div id='rightEye' class="absolute eye"></div>
+				</div>
 					<p id="message" class="absolute" style="color: green"></p>
 					<p id="percent" class="absolute" style="color: green; margin-top: 25px;"></p>
 				</div>				
 				<canvas id="canvas" height="1000" width= "1000" style="border-style: solid; border-width: 3px;"></canvas>
 				<canvas id="1" style="border-style: solid; border-width: 3px; border-color: red"></canvas>
 				<canvas id="2" style="border-style: solid; border-width: 3px; border-color: blue"></canvas>
-				
-				<div class="row">
-					<label class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></label>
-					<div class='col-lg-6 col-md-6 col-sm-3 col-xs-3'>
-						<textarea id="normal" style="width: 100%; margin-top: 50px"></textarea>
-						
-						<button id="copy" onclick="copy()" style="width: 200px; height: 200px">COPY</button>
-					</div>
-					
-					
-				</div>
-				
+	
 			</div>
 		</div>
 		<script src='photo.js'></script>

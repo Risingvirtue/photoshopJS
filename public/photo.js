@@ -12,12 +12,50 @@ $(document).ready(function() {
 	//listening to localhost 3000
 	socket = io.connect('http://localhost:3000');
 	socket.on('images', makeImages);
+	resetSun();
 })
 
+$('#render').mousedown(function() {
+	$('#render').css({'height': '125px', 'width': '75px', 'border-radius': '50%','background-color': 'white'});
+	$('#middle').css('display', 'none');
+	$('#cyoa').css('display', 'none');
+	$('.half-circle').css('display', 'none');
+	$('.open').css('display', 'block');
+	$('#leftEye').css('display', 'block');
+})
+
+
+$('#cyoa').mousedown(function() {
+	$('#cyoa').css({'height': '125px', 'width': '75px', 'border-radius': '50%','background-color': 'white' });
+	$('#cyoa').html('Generate<br>CYOA');
+	$('#middle').css('display', 'none');
+	$('#render').css('display', 'none');
+	$('.half-circle').css('display', 'none');
+	$('.open').css('display', 'block');
+	$('#rightEye').css('display', 'block');
+})
+
+$(document).mouseup(function() {
+	resetSun()
+});
+
+function resetSun() {
+	$('#render').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
+	$('#cyoa').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
+	$('#middle').css('display', 'block');
+	$('.half-circle').css('display', 'block');
+	$('.open').css('display', 'none');
+	$('#rightEye').css('display', 'none');
+	$('#leftEye').css('display', 'none');
+	$("body").css({"background-color":"#2EB5E5"}); 
+	
+}
+
+
 function render() {
+	$("body").css({"background-color":"white"}); 
 	socket.emit('render');
-	$("#render").css('display', 'none');
-	$("#cyoa").css('display', 'none');
+	$('#sunImage').css('display', 'none');
 }
 
 var img1Info = [];
@@ -95,8 +133,8 @@ function renderAndSave() {
 		saveMessage(100, name);
 		$("#percent").fadeOut(1000);
 		$("#message").fadeOut(1000,function(err) {
-			$('#cyoa').fadeIn('slow');
-			$('#render').fadeIn('slow');
+		
+			$('#sunImage').fadeIn('slow');
 			resetInfo();
 		});	
 	}
@@ -178,4 +216,6 @@ function resetInfo() {
 	$("#message").html('');
 	$("#percent").css('display', 'block');
 	$("#message").css('display', 'block');
+	resetSun();
+	
 }
