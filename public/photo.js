@@ -22,6 +22,7 @@ $('#render').mousedown(function() {
 	$('.half-circle').css('display', 'none');
 	$('.open').css('display', 'block');
 	$('#leftEye').css('display', 'block');
+	$('#promocode').css('display', 'none');
 })
 
 
@@ -42,12 +43,13 @@ $(document).mouseup(function() {
 function resetSun() {
 	$('#render').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
 	$('#cyoa').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
+	$('#promocode').css('display', 'block');
 	$('#middle').css('display', 'block');
 	$('.half-circle').css('display', 'block');
 	$('.open').css('display', 'none');
 	$('#rightEye').css('display', 'none');
 	$('#leftEye').css('display', 'none');
-	$("body").css({"background-color":"#2EB5E5"}); 
+	$("body").css({"background-color":"#2EB5E5"});
 	
 }
 
