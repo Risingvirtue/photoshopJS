@@ -1,12 +1,7 @@
 ﻿<style>
-    form {
-      font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif !important;
-    }
-    
     h2.form-title {
       text-align: center;
       font-size: 30px  !important;
-      font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif !important;
       border-bottom: none !important;
       padding: 20px 0 0 0 !important;
     }
@@ -14,12 +9,7 @@
       border-top: solid 1px #ccc;
       padding-top:20px;
     }
-    .overlay div h2 {
-    border: none;
-    font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    }
+
         /*  SECTIONS  */
     .section {
         clear: both;
@@ -111,7 +101,7 @@
         font-family: font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif !important;
         font-size: 26px;
         font-weight: 600;
-        margin: 20px 0;
+        margin: 30px 0 50px 0;
         text-decoration: none;
         text-align: center;
   
@@ -120,8 +110,6 @@
     
     .button-promo:hover {
         background-color: #38c30d;
-        box-shadow: inset 0px 0px 2px 3px #4bd454;
-        border: 1px solid #24a22d;
     }
     .button-promo:active {
         -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px #777777, 0px 3px 3px rgba(0, 0, 0, 0.03);
@@ -170,13 +158,13 @@
 
     .mobile-tile-info p {
       margin: 0 0 0 0;
-      line-height: 12px;
+      line-height: 20px;
     }
     
     b.tile-our-price {
       display:inline-block;
     }
-  /* Overlay Styles */
+
     .tile-container {
       width: 100%;
       border: solid 1px #ccc;
@@ -184,47 +172,11 @@
       border-top-left-radius: 6px;
       overflow: hidden;
     }
-    .overlay {
-      position:absolute;
-      width: 27%;
-      max-width: 280px;
-      height: 220px;
-      background-color: rgba(255, 255, 255, 0.85);
-      z-index: 3;
-      display: table;
-      opacity:0;
-      color: white;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-    .overlay div {
-      padding: 10px 20px 0 25px;
-      width: 90%;
-      color: #3f454a;
-      opacity: 1;
-    }
-    .overlay div h3 {
-      color:#ffffff;
-      font-size:22px;
-      font-weight:bold;
-    }
-    .overlay p {
-
-    }
+    
     .span_1_of_3 b {
       color: #db011c;
     }
-    .overlay:hover {
-      opacity:1;
-    }
-    .overlay {
-      transition:opacity .3s;
-      -webkit-transition:opacity .3s;
-    }
-    
-    .overlay a {
-      color: #3a81b2;
-    }
+   
     @media only screen and (max-width: 760px) {
       .overlay {
         width:87.5%;
@@ -241,11 +193,10 @@
       }
     }
     .hero {
-        margin:-30px -30px 20px -30px;  
+        margin: -57px 0 0 0
     }
     
     #promo-header {
-      background-image: url('http://toolup-images1.toolup.com/landing-pages/m12-kit-builder/HeroToo.jpg'); 
       background-position: right;
       background-repeat: no-repeat;
       background-color: #db011c;
@@ -273,10 +224,13 @@
     font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif;
     }
     #header-text h3 {
-    margin: -15px 0 0 0;
+    color: white;
     font-weight: 700;
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
+    }
+    #header-text p {
+    color: white;
     }
     #header-logo img {
         width: 360px;
@@ -300,19 +254,9 @@
        #header-logo img{ 
           max-width: 100%;
         } 
-    }  
+    } 
+    
+    .disabled-button {
+    background-color: lightgrey !important;
+    }
   </style>
-
-  
-  <!-- Choose Purchase Item -->
-  <div class="hero" id="promo-header">
-  <div id="header-text">
-    <div id="header-logo">
-    <img src="http://toolup-images1.toolup.com/landing-pages/m12-kit-builder/MilwaukeeLogo.png">
-    </div>
-    <h2>M12 Hand Tool Combo Promotion</h2>
-    <h3>Get a free choice of hand tool with select M12 kits.</h3>
-    <p><strong>Instructions:</strong> Click the tool that you would like to buy from the first section. Then, click one of the free tools in the bottom section. Click the “Add selection to Cart” button to add both items and apply the discount to your cart. Limit one redemption per order.</p>
-  </div>
-</div>
-<h2 class="form-title">Choose an eligible item</h2>

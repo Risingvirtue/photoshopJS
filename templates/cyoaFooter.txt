@@ -1,5 +1,17 @@
   <div class="con-button">
-  <input type="hidden" name="promocode" value="{promocode}" />
-  <input type="submit" class="button-promo" value="Add Selection To Cart" data-action="submitPromo" /> 
+  <input type="hidden" name="promocode" value="m18fuelt1" />
+  <input type="submit" class="button-promo disabled-button" value="Choose your tools from the options above" data-action="submitPromo" disabled> 
   </div>
   </form>
+  
+  <script>
+  $(document).ready(function() {
+    $('.m12-input input[type=radio]').click(function() {
+        var numRadiosChecked = $('input:checked').length;
+        
+        if (numRadiosChecked >= 2) {
+        	$('.button-promo').prop('disabled',false).removeClass('disabled-button').val('Add selection to cart');
+        }
+    });
+  });
+  </script>
