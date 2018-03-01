@@ -13,11 +13,12 @@ var io = socket(server);
 
 //listens to localhost
 io.sockets.on('connection', newConnection);
-
 var directory = path.dirname(process.argv[1]);
-var folder1 = directory + '\\img\\group 1';
-var folder2 = directory + '\\img\\group 2';
-var saveFolder = directory + '\\img\\Result';
+
+
+var folder1 = directory + '/img/Combo1';
+var folder2 = directory + '/img/Combo2';
+var saveFolder = directory + '/img/Result';
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
 	
@@ -37,7 +38,7 @@ function newConnection(socket) {
 				continue;
 			}
 			
-			var actualImg = getImage(folder1 + '\\' + img);
+			var actualImg = getImage(folder1 + '/' + img);
 			var actualData = "data:image/png;base64,"+ actualImg.toString("base64");
 			var name = img.split('.')[0];
 			name = name.split('_')[0].slice(name.indexOf('-') + 1);
@@ -50,7 +51,7 @@ function newConnection(socket) {
 			if (img.indexOf('.') == 0) {
 				continue;
 			}
-			var actualImg = getImage(folder2 + '\\' + img);
+			var actualImg = getImage(folder2 + '/' + img);
 			var actualData = "data:image/png;base64,"+ actualImg.toString("base64");
 			var name = img.split('.')[0];
 			name = name.split('_')[0];
@@ -68,7 +69,7 @@ function newConnection(socket) {
 	
 	function saveNewImg(data) {
 		
-		fs.writeFile(saveFolder + '\\' + data.newName + '.jpeg', data.newImgData, 'base64', function(err){
+		fs.writeFile(saveFolder + '/' + data.newName + '.jpeg', data.newImgData, 'base64', function(err){
 			if (err) throw err
 			console.log('File ' + data.newName + ' saved.')
 		})
