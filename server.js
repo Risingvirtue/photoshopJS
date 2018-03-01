@@ -38,7 +38,7 @@ function newConnection(socket) {
 		var getItemData = [], getItems = [], numGetItems = 0;
 		
 		templates = netsuite.getTemplates();
-	
+		output += templates.cyoaHeader;
 		netsuite.getItemId(csvPath, function(err, data) {
 			numBuyItems = data.buyItems.length;
 			for (var i = 0; i < data.buyItems.length / 10; i++) {
