@@ -12,13 +12,52 @@ $(document).ready(function() {
 	//listening to localhost 3000
 	socket = io.connect('http://localhost:3000');
 	socket.on('images', makeImages);
-	
-	
+	resetSun();
 })
 
+$('#render').mousedown(function() {
+	$('#render').css({'height': '125px', 'width': '75px', 'border-radius': '50%','background-color': 'white'});
+	$('#middle').css('display', 'none');
+	$('#cyoa').css('display', 'none');
+	$('.half-circle').css('display', 'none');
+	$('.open').css('display', 'block');
+	$('#leftEye').css('display', 'block');
+	$('#promocode').css('display', 'none');
+})
+
+
+$('#cyoa').mousedown(function() {
+	$('#cyoa').css({'height': '125px', 'width': '75px', 'border-radius': '50%','background-color': 'white' });
+	$('#cyoa').html('Generate<br>CYOA');
+	$('#middle').css('display', 'none');
+	$('#render').css('display', 'none');
+	$('.half-circle').css('display', 'none');
+	$('.open').css('display', 'block');
+	$('#rightEye').css('display', 'block');
+})
+
+$(document).mouseup(function() {
+	resetSun()
+});
+
+function resetSun() {
+	$('#render').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
+	$('#cyoa').css({'height': '75px', 'width': '150px', 'border-radius': '0%','background-color': 'rgb(211,211,211)', 'display' : 'block'});
+	$('#promocode').css('display', 'block');
+	$('#middle').css('display', 'block');
+	$('.half-circle').css('display', 'block');
+	$('.open').css('display', 'none');
+	$('#rightEye').css('display', 'none');
+	$('#leftEye').css('display', 'none');
+	$("body").css({"background-color":"#2EB5E5"});
+	
+}
+
+
 function render() {
+	$("body").css({"background-color":"white"}); 
 	socket.emit('render');
-	$("#render").css('visibility', 'hidden');
+	$('#sunImage').css('display', 'none');
 }
 
 var img1Info = [];
@@ -26,7 +65,7 @@ var img2Info = [];
 var imgInfoLine = [];
 var index = 0;
 function makeImages(data) {
-	
+	$("#message").html('Files are currently being rendered.');
 	//gets image data for everything
 	for (var i = 0; i < data.imgData1.length; i++) {
 		var imgData1 = data.imgData1[i].actualData;
@@ -79,7 +118,7 @@ function renderAndSave() {
 	var img1 = imgInfoLine[index].img1;
 	var img2 = imgInfoLine[index].img2;
 	var name = imgInfoLine[index].name;
-	//console.log(index * 100 / imgInfoLine.length);
+	
 	
 	resetCanvas();
 	changePixelTop(img1);
@@ -87,12 +126,19 @@ function renderAndSave() {
 	drawPlus(575,575);
 	
 	saveCanvas(name);
-	
 	index++;
-	var percent = Math.round(index * 100 / imgInfoLine.length);
+	var percent = Math.round((index -1)  * 100 / imgInfoLine.length);
 	saveMessage(percent, name);
 	if (index < imgInfoLine.length) {
 		setTimeout(renderAndSave, 0);
+	} else {
+		saveMessage(100, name);
+		$("#percent").fadeOut(1000);
+		$("#message").fadeOut(1000,function(err) {
+		
+			$('#sunImage').fadeIn('slow');
+			resetInfo();
+		});	
 	}
 }
 
@@ -153,6 +199,7 @@ function drawPlus(x, y) {
 }
 
 function saveCanvas(name) {
+	//gets rid of header
 	var newImgData = canvas.toDataURL('image/jpeg', 1.0).slice(23);
 	socket.emit('saveNewImg', {newName: name, newImgData: newImgData});
 }
@@ -160,6 +207,17 @@ function saveCanvas(name) {
 function saveMessage(percent, name) {
 	$("#percent").html(percent + '% complete.')
 	$("#message").html('File ' + name + ' is being rendered. \n');
-	
+}
+
+function resetInfo() {
+	img1Info = [];
+	img2Info = [];
+	imgInfoLine = [];
+	index = 0;
+	$("#percent").html('');
+	$("#message").html('');
+	$("#percent").css('display', 'block');
+	$("#message").css('display', 'block');
+	resetSun();
 	
 }
