@@ -17,19 +17,13 @@ var io = socket(server);
 
 //listens to localhost
 io.sockets.on('connection', newConnection);
+
 var directory = path.dirname(process.argv[1]);
-<<<<<<< HEAD
-
-
-var folder1 = directory + '/img/Combo1';
-var folder2 = directory + '/img/Combo2';
-=======
 var folder1 = directory + '/img/Combo1';
 var folder2 = directory + '/img/Combo2';
 var itemFolder = directory + '/items';
 var csvFile = fs.readdirSync(itemFolder)[0];
 var csvPath = itemFolder + '/' + csvFile;
->>>>>>> c5aed7cc8da7f95df52d54c85e70e24283a40f73
 var saveFolder = directory + '/img/Result';
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
