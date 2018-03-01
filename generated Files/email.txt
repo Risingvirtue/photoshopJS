@@ -3,7 +3,48 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-22_1.jpg" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td width="320" height="280" bgcolor="#ffffff">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2721-22_1.jpg" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
+	</tr>
+	<tr>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>Milwaukee 2731-22</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4" Circular Saw, 2 Battery Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$755.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$429.00</strong>
+          </p>
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+        </td>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>Milwaukee 2721-22</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL One-Key SAWZALL Kit with XC Batteries and Charger 
+          </a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$790.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$449.00</strong>
+          </p>
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+      </td>
+	</tr>
+  
+
+
+	<tr>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
+		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2719-21_1.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
@@ -15,11 +56,11 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2731-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4” Circular Saw Kit</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$579.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$329.00</strong>
+          <p>Milwaukee 2719-21</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL Hackzall Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$438.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$249.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit">
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -44,11 +85,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2721-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-21_1.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2730-21_1.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -56,23 +97,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2721-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL One-Key SAWZALL Kit with XC Batteries and Charger</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$790.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$449.00</strong>
+          <p>Milwaukee 2731-21</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4” Circular Saw Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$579.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$329.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger">
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2731-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4" Circular Saw, 2 Battery Kit 
+          <p>Milwaukee 2730-21</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 6-1/2" Circular Saw Kit with 1 Battery 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$755.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$429.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit">
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -130,7 +171,7 @@
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2730-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2780-22_1.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -143,47 +184,6 @@
           <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
           <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2720-21-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-1-Battery">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-        </td>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2730-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 6-1/2" Circular Saw Kit with 1 Battery 
-          </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-      </td>
-	</tr>
-  
-
-
-	<tr>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
-		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2719-21_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2780-22_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
-	</tr>
-	<tr>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2719-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL Hackzall Kit</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$438.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$249.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>

@@ -8,9 +8,11 @@ $(document).ready(function() {
 })
 
 function generateCYOA() {
+	var promocode = $('#promocode').val();
+	console.log(promocode);
 	$("body").css({"background-color":"white"}); 
 	$('#sunImage').css('display', 'none');
-	socket.emit('renderJSON', {});
+	socket.emit('renderJSON', {promocode: promocode});
 }
 
 

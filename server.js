@@ -29,7 +29,8 @@ function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
 	socket.on('renderJSON', renderJSON);
 	
-	function renderJSON() {
+	function renderJSON(data) {
+		var promocode = data.promocode;
 		var output = '';
 		var templates = {};
 		
@@ -95,7 +96,7 @@ function newConnection(socket) {
 					buildItems(getItemData, templates.cyoaGetItem, function(err, data){
 						output += data;
 						output += format(templates.cyoaFooter, {
-							promocode: 1231
+							promocode: promocode
 						});
 						
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
