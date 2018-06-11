@@ -36,6 +36,7 @@ $('#cyoa').mousedown(function() {
 	$('#rightEye').css('display', 'block');
 })
 
+
 $(document).mouseup(function() {
 	resetSun()
 });

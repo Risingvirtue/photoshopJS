@@ -5,7 +5,7 @@ var server = app.listen(3000);
 var fs = require('fs');
 var path = require('path');
 var netsuite = require('./netsuite');
-var csv =require('csv');
+var csv = require('csv');
 var format = require('string-template');
 var domain = 'http://www.toolup.com/';
 
@@ -36,7 +36,7 @@ function newConnection(socket) {
 		
 		var buyItemData = [], buyItems = [], numBuyItems = 0;
 		var getItemData = [], getItems = [], numGetItems = 0;
-		
+		var ids = {};
 		templates = netsuite.getTemplates();
 		output += templates.cyoaHeader;
 		netsuite.getItemId(csvPath, function(err, data) {
@@ -45,18 +45,34 @@ function newConnection(socket) {
 				buyItems.push(data.buyItems.slice(i * 10, Math.min((i+ 1) * 10, data.buyItems.length)));
 			}
 			
+			for (var i = 0; i < data.buyItems.length; i++) {
+				ids[data.buyItems[i]] = false;
+			}
+			
 			numGetItems = data.getItems.length;
 			for (var j = 0; j <= data.getItems.length / 10; j++) {
 				getItems.push(data.getItems.slice(j * 10, Math.min((j+ 1) * 10, data.getItems.length)));
 			}
+			
+			for (var j = 0; j < data.getItems.length; j++) {
+				ids[data.getItems[j]] = false;
+			}
 			var buyIndex = 0;
 			var getIndex = 0;
 			
+	
 			function getBuyItems() {
 				netsuite.getItem(buyItems[buyIndex], function(err, data){
-					buyItemData = buyItemData.concat(data);
+					if (typeof data != "undefined") {
+						for (var i = 0; i < data.length; i++) {
+							ids[data[i].internalid] = true;
+						}
+						
+						buyItemData = buyItemData.concat(data);
+					}
+					
 					buyIndex++;
-					if (buyIndex < buyItems.length) {
+					if (buyIndex < numBuyItems) {
 						getBuyItems();
 					}
 				});
@@ -64,7 +80,12 @@ function newConnection(socket) {
 			
 			function getGetItems() {
 				netsuite.getItem(getItems[getIndex], function(err, data){
-					getItemData = getItemData.concat(data);	
+					if (typeof data != "undefined") {
+						for (var i = 0; i < data.length; i++) {
+							ids[data[i].internalid] = true;
+						}
+						getItemData = getItemData.concat(data);	
+					}
 					getIndex++;
 					if (getIndex < getItems.length) {
 						getGetItems();
@@ -77,7 +98,16 @@ function newConnection(socket) {
 		});
 		
 		interval = setInterval(function() {
+			console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
+			var notComplete = [];
+			for (var id in ids) {
+				if (!ids[id]) {
+					notComplete.push(id);
+				}
+			}
+			console.log({notComplete: notComplete});
 			if (buyItemData.length == numBuyItems && getItemData.length == numGetItems) {
+				
 				clearInterval(interval);
 				fillTemplate(buyItemData, function(err, data) {
 					

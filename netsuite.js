@@ -11,7 +11,7 @@ module.exports = {
 			
 			itemids = itemids.join(',');
 		url += itemids;
-		
+		//console.log(url);
 		http.get(url, function(response){
 
 			response.setEncoding('utf8');

@@ -3,11 +3,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602205550-SSW-18-LTX-400-BL-Cordless-Impact-Wrench"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-US602205550_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2721-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US613070620-WPF-18-LTX-125-Cordless-Flat-Head-Angle-Grinder-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-US613070620_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -15,23 +15,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2731-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4" Circular Saw, 2 Battery Kit</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$755.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$429.00</strong>
+          <p>Metabo US602205550</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602205550-SSW-18-LTX-400-BL-Cordless-Impact-Wrench"><p style="font-weight:bold; font-size: 20px; margin:0px">SSW 18 LTX 400 BL Cordless Impact Wrench</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$766.60</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-22-M18-FUEL-7-1-4-Circular-Saw-2-Battery-Kit">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-US602205550-SSW-18-LTX-400-BL-Cordless-Impact-Wrench">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2721-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL One-Key SAWZALL Kit with XC Batteries and Charger 
+          <p>Metabo US613070620</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US613070620-WPF-18-LTX-125-Cordless-Flat-Head-Angle-Grinder-Kit">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">WPF 18 LTX 125 Cordless Flat Head Angle Grinder Kit 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$790.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$449.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$958.97</span><strong style="margin-left:10px; color:red; font-size: 22px;">$499.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2721-22-M18-FUEL-One-Key-SAWZALL-Kit-with-XC-Batteries-and-Charger">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-US613070620-WPF-18-LTX-125-Cordless-Flat-Head-Angle-Grinder-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -44,11 +44,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-21-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-w-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2780-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613101640-WPB-36-LTX-BL-230-9-Cordless-Angle-Grinder-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-613101640_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2720-22-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2720-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602350520-BS-18-LTX-BL-I-Cordless-Drill-Screwdriver-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-602350520_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -56,23 +56,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2780-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-21-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-w-1-Battery"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 4-1/2 - 5" Grinder, Paddle Switch No-Lock w/ 1 Battery</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
+          <p>Metabo 613101640</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613101640-WPB-36-LTX-BL-230-9-Cordless-Angle-Grinder-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">WPB 36 LTX BL 230 9" Cordless Angle Grinder Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$2,200.06</span><strong style="margin-left:10px; color:red; font-size: 22px;">$1,199.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2780-21-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-w-1-Battery">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-613101640-WPB-36-LTX-BL-230-9-Cordless-Angle-Grinder-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2720-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2720-22-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-2-Batteries">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL SAWZALL Reciprocating Saw Kit with 2 Batteries 
+          <p>Metabo 602350520</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602350520-BS-18-LTX-BL-I-Cordless-Drill-Screwdriver-Kit">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">BS 18 LTX BL I Cordless Drill / Screwdriver Kit 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$575.18</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2720-22-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-2-Batteries">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-602350520-BS-18-LTX-BL-I-Cordless-Drill-Screwdriver-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -85,11 +85,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2719-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602357620-SB-18-LTX-3-BL-Q-I-Cordless-Hammer-Drill"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-602357620_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-22-M18-FUEL-6-1-2-Circular-Saw-Kit-with-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2730-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602355620-BS-18-LTX-3-BL-Q-I-Cordless-Drill-Screwdriver-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-602355620_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -97,23 +97,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2719-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL Hackzall Kit</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$438.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$249.00</strong>
+          <p>Metabo 602357620</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602357620-SB-18-LTX-3-BL-Q-I-Cordless-Hammer-Drill"><p style="font-weight:bold; font-size: 20px; margin:0px">SB 18 LTX-3 BL Q I Cordless Hammer Drill</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$766.60</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2719-21-M18-FUEL-Hackzall">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-602357620-SB-18-LTX-3-BL-Q-I-Cordless-Hammer-Drill">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2730-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-22-M18-FUEL-6-1-2-Circular-Saw-Kit-with-2-Batteries">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 6-1/2" Circular Saw Kit with 2 Batteries 
+          <p>Metabo 602355620</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602355620-BS-18-LTX-3-BL-Q-I-Cordless-Drill-Screwdriver-Kit">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">BS 18 LTX-3 BL Q I Cordless Drill / Screwdriver Kit 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$766.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2730-22-M18-FUEL-6-1-2-Circular-Saw-Kit-with-2-Batteries">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-602355620-BS-18-LTX-3-BL-Q-I-Cordless-Drill-Screwdriver-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -126,11 +126,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2731-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-601754750-KFM-18-LTX-3-RF-Cordless-Beveling-Tool-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-601754750_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2720-21-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2720-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602352520-SB-18-LTX-BL-I-5.2Ah-Cordless-Hammer-Drill"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-602352520_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -138,23 +138,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2731-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 7-1/4” Circular Saw Kit</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$579.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$329.00</strong>
+          <p>Metabo 601754750</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-601754750-KFM-18-LTX-3-RF-Cordless-Beveling-Tool-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">KFM 18 LTX 3 RF Cordless Beveling Tool Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$2,169.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$1,299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2731-21-M18-FUEL-7-1-4-Circular-Saw-Kit">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-601754750-KFM-18-LTX-3-RF-Cordless-Beveling-Tool-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2720-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2720-21-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-1-Battery">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL SAWZALL Reciprocating Saw Kit with 1 Battery 
+          <p>Metabo 602352520</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-602352520-SB-18-LTX-BL-I-5.2Ah-Cordless-Hammer-Drill">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">SB 18 LTX BL I 5.2Ah Cordless Hammer Drill with Plastic Carry Case 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$575.18</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2720-21-M18-FUEL-SAWZALL-Reciprocating-Saw-Kit-with-1-Battery">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-602352520-SB-18-LTX-BL-I-5.2Ah-Cordless-Hammer-Drill">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -167,11 +167,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2730-21_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613076640-WPB-18-LTX-BL-150-6-Cordless-Angle-Grinder"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-613076640_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2780-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613074620-WPB-18-LTX-BL-115-4-1-2-Cordless-Angle-Grinder"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-613074620_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -179,23 +179,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2730-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 6-1/2" Circular Saw Kit with 1 Battery</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
+          <p>Metabo 613076640</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613076640-WPB-18-LTX-BL-150-6-Cordless-Angle-Grinder"><p style="font-weight:bold; font-size: 20px; margin:0px">WPB 18 LTX BL 150 6" Cordless Braking Angle Grinder Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$958.97</span><strong style="margin-left:10px; color:red; font-size: 22px;">$499.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2730-21-M18-FUEL-6-1-2-Circular-Saw-Kit-with-1-Battery">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-613076640-WPB-18-LTX-BL-150-6-Cordless-Angle-Grinder">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2780-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 4-1/2 - 5" Grinder, Paddle Switch No-Lock Kit w/ 2 Batteries 
+          <p>Metabo 613074620</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-613074620-WPB-18-LTX-BL-115-4-1-2-Cordless-Angle-Grinder">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">WPB 18 LTX BL Quick 5.5Ah 4.5" Compact Angle Grinder Kit 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$843.94</span><strong style="margin-left:10px; color:red; font-size: 22px;">$439.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2780-22-M18-FUEL-4-1-2-5-Grinder-Paddle-Switch-No-Lock-Kit-w-2-Batteries">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-613074620-WPB-18-LTX-BL-115-4-1-2-Cordless-Angle-Grinder">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
@@ -208,11 +208,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2781-22-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-Kit-w-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2781-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602111750-BSA-14.4-18-LED-Cordless-Work-Light-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-US602111750_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2810-22-M18-FUEL-Mud-Mixer-with-180-Handle-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2810-22_1.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602198550-SSW-18-LTX-600-BL-Cordless-Impact-Wrench"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Metabo-US602198550_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -220,105 +220,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2781-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2781-22-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-Kit-w-2-Batteries"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 4-1/2 - 5" Grinder, Slide Switch Lock-On Kit w/ 2 Batteries</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p>Metabo US602111750</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602111750-BSA-14.4-18-LED-Cordless-Work-Light-Kit"><p style="font-weight:bold; font-size: 20px; margin:0px">BSA 14.4- 18 LED Cordless Work Light Kit</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$609.99</span><strong style="margin-left:10px; color:red; font-size: 22px;">$339.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2781-22-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-Kit-w-2-Batteries">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-US602111750-BSA-14.4-18-LED-Cordless-Work-Light-Kit">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2810-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2810-22-M18-FUEL-Mud-Mixer-with-180-Handle-Kit">
-            <p style="font-weight:bold; font-size: 20px; margin:0px"> M18 FUEL Mud Mixer with 180° Handle Kit 
+          <p>Metabo US602198550</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Metabo-US602198550-SSW-18-LTX-600-BL-Cordless-Impact-Wrench">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">SSW 18 LTX 600 BL Cordless Impact Wrench 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$614.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$349.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$863.27</span><strong style="margin-left:10px; color:red; font-size: 22px;">$449.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2810-22-M18-FUEL-Mud-Mixer-with-180-Handle-Kit">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-      </td>
-	</tr>
-  
-
-
-	<tr>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
-		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2781-21-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-w-1-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2781-21_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2782-22-M18-FUEL-5-3-8-5-7-8-Metal-Circular-Saw-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2782-22_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
-	</tr>
-	<tr>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2781-21</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2781-21-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-w-1-Battery"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 4-1/2 - 5" Grinder, Slide Switch Lock-On w/ 1 Battery</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$526.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2781-21-M18-FUEL-4-1-2-5-Grinder-Slide-Switch-Lock-On-w-1-Battery">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-        </td>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2782-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2782-22-M18-FUEL-5-3-8-5-7-8-Metal-Circular-Saw-Kit">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 5-3/8" - 5-7/8" Metal Circular Saw Kit 
-          </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2782-22-M18-FUEL-5-3-8-5-7-8-Metal-Circular-Saw-Kit">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-      </td>
-	</tr>
-  
-
-
-	<tr>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
-		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2784-22-M18-FUEL-1-4-Die-Grinder-Kit-with-2-Batteries"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2784-22_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2783-22-M18-FUEL-Cordless-4-1-2-5-Braking-Grinder-Tool-Kit"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="http://www.toolup.com/product-images/Milwaukee-2783-22_1.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
-	</tr>
-	<tr>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2784-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2784-22-M18-FUEL-1-4-Die-Grinder-Kit-with-2-Batteries"><p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL 1/4" Die Grinder Kit with 2 Batteries</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$702.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2784-22-M18-FUEL-1-4-Die-Grinder-Kit-with-2-Batteries">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-        </td>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2783-22</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2783-22-M18-FUEL-Cordless-4-1-2-5-Braking-Grinder-Tool-Kit">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M18 FUEL Cordless 4-1/2" / 5" Braking Grinder Tool Kit 
-          </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$790.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$449.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2783-22-M18-FUEL-Cordless-4-1-2-5-Braking-Grinder-Tool-Kit">
+          <a style="text-decoration:none" href="http://www.toolup.com/Metabo-US602198550-SSW-18-LTX-600-BL-Cordless-Impact-Wrench">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>

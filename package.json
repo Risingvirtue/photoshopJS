@@ -1,0 +1,26 @@
+{
+  "name": "photoshopjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risingvirtue/photoshopJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Risingvirtue/photoshopJS/issues"
+  },
+  "homepage": "https://github.com/Risingvirtue/photoshopJS#readme",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1",
+    "string-template": "^1.0.0"
+  }
+}
