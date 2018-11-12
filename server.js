@@ -34,71 +34,59 @@ function newConnection(socket) {
 		var output = '';
 		var templates = {};
 		
-		var buyItemData = [], buyItems = [], numBuyItems = 0;
-		var getItemData = [], getItems = [], numGetItems = 0;
+		buyItems = [];
+		getItems = [];
 		var ids = {};
+		var idArr = [];
+		var index = 0;
 		templates = netsuite.getTemplates();
 		output += templates.cyoaHeader;
 		netsuite.getItemId(csvPath, function(err, data) {
-			numBuyItems = data.buyItems.length;
-			for (var i = 0; i < data.buyItems.length / 10; i++) {
-				buyItems.push(data.buyItems.slice(i * 10, Math.min((i+ 1) * 10, data.buyItems.length)));
+			buyItems = data.buyItems;
+			for (var col = 0; col < buyItems.length; col++) {
+				for (var row = 0; row < buyItems[col].length; row++) {
+					var internalid = buyItems[col][row];
+					ids[internalid] = false;
+					idArr.push(internalid);
+				}
 			}
 			
-			for (var i = 0; i < data.buyItems.length; i++) {
-				ids[data.buyItems[i]] = false;
+			getItems = data.getItems;
+			
+			for (var col = 0; col < getItems.length; col++) {
+				for (var row = 0; row < getItems[col].length; row++) {
+					var internalid = getItems[col][row];
+					ids[internalid] = false;
+					idArr.push(internalid);
+					
+				}
 			}
 			
-			numGetItems = data.getItems.length;
-			for (var j = 0; j <= data.getItems.length / 10; j++) {
-				getItems.push(data.getItems.slice(j * 10, Math.min((j+ 1) * 10, data.getItems.length)));
-			}
 			
-			for (var j = 0; j < data.getItems.length; j++) {
-				ids[data.getItems[j]] = false;
-			}
-			var buyIndex = 0;
-			var getIndex = 0;
 			
-	
-			function getBuyItems() {
-				netsuite.getItem(buyItems[buyIndex], function(err, data){
+			function getAllItems() {
+				var sliced = idArr.slice(10 * index, 10 * (index + 1));
+				console.log('sliced', sliced);
+				netsuite.getItem(sliced, function(err, data){
+					
 					if (typeof data != "undefined") {
 						for (var i = 0; i < data.length; i++) {
 							ids[data[i].internalid] = true;
 						}
-						
-						buyItemData = buyItemData.concat(data);
 					}
 					
-					buyIndex++;
-					if (buyIndex < numBuyItems) {
-						getBuyItems();
-					}
+					
 				});
 			}
 			
-			function getGetItems() {
-				netsuite.getItem(getItems[getIndex], function(err, data){
-					if (typeof data != "undefined") {
-						for (var i = 0; i < data.length; i++) {
-							ids[data[i].internalid] = true;
-						}
-						getItemData = getItemData.concat(data);	
-					}
-					getIndex++;
-					if (getIndex < getItems.length) {
-						getGetItems();
-					}
-				});
-			}
 			
-			getBuyItems();
-			getGetItems();
+			getAllItems();
+			//getGetItems();
 		});
 		
 		interval = setInterval(function() {
-			console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
+			return;
+			//console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
 			var notComplete = [];
 			for (var id in ids) {
 				if (!ids[id]) {

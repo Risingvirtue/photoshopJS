@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Risingvirtue/photoshopJS#readme",
   "dependencies": {
     "csv": "^3.1.0",
+    "csv-generate": "2.1.0",
     "express": "^4.16.3",
     "socket.io": "^2.1.1",
     "string-template": "^1.0.0"

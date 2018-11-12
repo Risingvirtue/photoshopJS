@@ -1,18 +1,18 @@
 /* Returns item detail data as JSON object */
-var http = require('http');
+var https = require('https');
 var fs = require('fs');
 var csv = require('csv');
 
 module.exports = {
 	getItem: function(itemids, callback){
 
-		var url = 'http://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
+		var url = 'https://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
 		if ( Array.isArray(itemids) )
 			
 			itemids = itemids.join(',');
 		url += itemids;
-		//console.log(url);
-		http.get(url, function(response){
+		
+		https.get(url, function(response){
 
 			response.setEncoding('utf8');
 
@@ -27,7 +27,7 @@ module.exports = {
 				try {
 					
 					var items = JSON.parse(body).items;
-					
+					console.log('items', items.length);
 					
 				} catch (err) {
 					console.error("Couldn't parse JSON", err);
@@ -98,21 +98,27 @@ module.exports = {
 		return templates;
 	},
 	getItemId: function(itemPath, callback) {
-		
+		console.log(itemPath);
 		buyItems = [];
 		getItems = [];
 		var data = fs.readFileSync(itemPath, 'utf8');
 			csv.parse(data, function(err, data){
 				var headers = data[0];
-				var buyIndex = headers.indexOf('Buy This');
-				var getIndex = headers.indexOf('Get This');
-				for (var row = 1; row < data.length; row++){
-					if(data[row][buyIndex] !== '')
-						buyItems.push(data[row][buyIndex]);
-					if(data[row][getIndex] !== '')
-						getItems.push(data[row][getIndex]);
-				}
 				
+				for (var col = 0; col < data[0].length; col++) {
+					var buyCol = [];
+					var isBuy = data[0][col].toLowerCase().indexOf('buy') != -1;
+					for (var row = 1; row < data.length; row++) {
+						var internalid = data[row][col];
+						if (internalid)
+							buyCol.push(internalid);
+					}
+					if (isBuy) {
+						buyItems.push(buyCol);
+					} else {
+						getItems.push(buyCol);
+					}
+				}
 				callback(null, {buyItems: buyItems, getItems: getItems});
 				
 			})
