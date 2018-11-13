@@ -25,6 +25,8 @@ var itemFolder = directory + '/items';
 var csvFile = fs.readdirSync(itemFolder)[0];
 var csvPath = itemFolder + '/' + csvFile;
 var saveFolder = directory + '/img/Result';
+
+var ids = {};
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
 	socket.on('renderJSON', renderJSON);
@@ -36,7 +38,7 @@ function newConnection(socket) {
 		
 		buyItems = [];
 		getItems = [];
-		var ids = {};
+		
 		var idArr = [];
 		var index = 0;
 		templates = netsuite.getTemplates();
@@ -66,38 +68,32 @@ function newConnection(socket) {
 			
 			function getAllItems() {
 				var sliced = idArr.slice(10 * index, 10 * (index + 1));
-				console.log('sliced', sliced);
+				
+				if (sliced.length == 0) {
+					return;
+				}
 				netsuite.getItem(sliced, function(err, data){
-					
 					if (typeof data != "undefined") {
 						for (var i = 0; i < data.length; i++) {
-							ids[data[i].internalid] = true;
+							ids[data[i].internalid] = data[i];
 						}
 					}
+					index++;
 					
-					
+					getAllItems();
 				});
 			}
-			
 			
 			getAllItems();
 			//getGetItems();
 		});
 		
 		interval = setInterval(function() {
-			return;
-			//console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
-			var notComplete = [];
-			for (var id in ids) {
-				if (!ids[id]) {
-					notComplete.push(id);
-				}
-			}
-			console.log({notComplete: notComplete});
-			if (buyItemData.length == numBuyItems && getItemData.length == numGetItems) {
+			//console.log(Math.min(100, (index * 1000) / idArr.length) + ' % done');
+			if (index * 10 > idArr.length) {
 				
 				clearInterval(interval);
-				fillTemplate(buyItemData, function(err, data) {
+				fillTemplate(buyItems[0], function(err, data) {
 					
 					fs.writeFile('./generated Files/email.txt', data, (err) => {
 							if (err) throw err;
@@ -105,16 +101,19 @@ function newConnection(socket) {
 							socket.emit('email');
 					});
 				})
-				
 				//for output.txt
-				buildItems(buyItemData, templates.cyoaBuyItem, function(err, data){
+				//output += '<form>\n';
+				
+				buildItems(buyItems, null, templates.cyoaBuyItem, function(err, data){
 					output += data;
-					output += '</form>\n<h2 class="form-title top-border">Choose your free item to go with it</h2>\n';
+					//output += '</form>\n';
 					
-					buildItems(getItemData, templates.cyoaGetItem, function(err, data){
+					var getHeaders = generateGetHeaders(getItems);
+					buildItems(getItems, getHeaders, templates.cyoaGetItem, function(err, data){
 						output += data;
 						output += format(templates.cyoaFooter, {
-							promocode: promocode
+							promocode: promocode,
+							numInput: buyItems.length + getItems.length
 						});
 						
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
@@ -201,19 +200,22 @@ function fillTemplate(items, callback){
 		for(var i = 0; i < items.length - 1; i++){
 			
 			if(i % 2 == 0) {
+				var item1 = ids[items[i]];
+				var item2 = ids[items[i + 1]];
+				console.log('i', i);
 				template = format(data, {
-					urlcomponent1: domain + items[i].urlcomponent,
-					itemimagesdetail1: netsuite.getImage(items[i]),
-					itemid1: items[i].itemid,
-					displayname1: items[i].storedisplayname2.slice(items[i].itemid.length+1),
-					pricelevel2formatted1: items[i].pricelevel2_formatted,
-					pricelevel7formatted1: netsuite.getPrice(items[i]),
-					urlcomponent2: domain + items[i+1].urlcomponent,
-					itemimagesdetail2: netsuite.getImage(items[i+1]),
-					itemid2: items[i+1].itemid,
-					displayname2: items[i+1].storedisplayname2.slice(items[i+1].itemid.length+1),
-					pricelevel2formatted2: items[i+1].pricelevel2_formatted,
-					pricelevel7formatted2: netsuite.getPrice(items[i+1])
+					urlcomponent1: domain + item1.urlcomponent,
+					itemimagesdetail1: netsuite.getImage(item1),
+					itemid1: item1.itemid,
+					displayname1: item1.storedisplayname2.slice(item1.itemid.length + 1),
+					pricelevel2formatted1: item1.pricelevel2_formatted,
+					pricelevel7formatted1: netsuite.getPrice(item1),
+					urlcomponent2: domain + item2.urlcomponent,
+					itemimagesdetail2: netsuite.getImage(item2),
+					itemid2: item2.itemid,
+					displayname2: item2.storedisplayname2.slice(item2.itemid.length+1),
+					pricelevel2formatted2: item2.pricelevel2_formatted,
+					pricelevel7formatted2: netsuite.getPrice(item2)
 				});
 				outputBlocks.push(template);
 			} 		
@@ -223,27 +225,47 @@ function fillTemplate(items, callback){
 	});
 }
 
-function buildItems(items, template, callback){
-
-	var output = '<form>\n';
-
-	for(var i = 0; i < items.length; i++){
-		if(i === 0 || i % 3 === 0 ){
-			output += '<div class="section group">\n';
+function buildItems(items, headers, template, callback){
+	var output = '';
+	
+	for (var col = 0; col < items.length; col++) {
+		if (headers) {
+			output += headers[col];
 		}
-
-		output += format(template, {
-			itemurl: domain + items[i].urlcomponent,
-			imageurl: netsuite.getImage(items[i]),
-			internalid: items[i].internalid,
-			itemname: items[i].displayname,
-			price: netsuite.getPrice(items[i])
-		});
-		output += '\n';
-
-		if( (i+1) % 3 === 0 || i+1 === items.length ){
-			output += '</div>\n';
+		output += '<form>\n';
+		for(var i = 0; i < items[col].length; i++){
+			var itemId = items[col][i];
+			var itemInfo = ids[itemId];
+			if(i === 0 || i % 3 === 0 ){
+				output += '<div class="section group">\n';
+			}
+			output += format(template, {
+				itemurl: domain + itemInfo.urlcomponent,
+				imageurl: netsuite.getImage(itemInfo),
+				internalid: itemInfo.internalid,
+				itemname: itemInfo.displayname,
+				price: netsuite.getPrice(itemInfo)
+			});
+			output += '\n';
+			
+			if( (i+1) % 3 === 0 || i+1 === items[col].length ){
+				output += '</div>\n';
+			}
 		}
+		output += '</form>\n';
 	}
 	callback(null, output);
+}
+
+function generateGetHeaders(getItems) {
+	if (getItems.length == 1) {
+		return ['<h2 class="form-title top-border">Choose your free item to go with it</h2>\n'];
+	} else {
+		const place = {0: 'FIRST', 1: 'SECOND', 2: 'THIRD', 3: 'FOURTH', 4: 'FIFTH'};
+		var header = [];
+		for (var i = 0; i < getItems.length; i++) {
+			header.push('<h2 class="form-title top-border">Choose your ' +  place[i] + ' free item</h2>\n');
+		}
+		return header;
+	}
 }

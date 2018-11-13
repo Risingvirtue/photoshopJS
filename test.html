@@ -1,4 +1,9 @@
-﻿<style>
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+	<style>
     h2.form-title {
       text-align: center;
       font-size: 30px  !important;
@@ -580,9 +585,10 @@
     $('.m12-input input[type=radio]').click(function() {
         var numRadiosChecked = $('input:checked').length;
         
-        if (numRadiosChecked >= 3) {
+        if (numRadiosChecked >= 2) {
         	$('.button-promo').prop('disabled',false).removeClass('disabled-button').val('Add selection to cart');
         }
     });
   });
   </script>
+  </body>

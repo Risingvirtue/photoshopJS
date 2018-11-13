@@ -9,7 +9,7 @@
     $('.m12-input input[type=radio]').click(function() {
         var numRadiosChecked = $('input:checked').length;
         
-        if (numRadiosChecked >= 2) {
+        if (numRadiosChecked >= {numInput}) {
         	$('.button-promo').prop('disabled',false).removeClass('disabled-button').val('Add selection to cart');
         }
     });

@@ -27,8 +27,6 @@ module.exports = {
 				try {
 					
 					var items = JSON.parse(body).items;
-					console.log('items', items.length);
-					
 				} catch (err) {
 					console.error("Couldn't parse JSON", err);
 					return callback(err);
@@ -76,10 +74,14 @@ module.exports = {
 			return item.itemimages_detail.urls[0].url;
 	},
 	getPrice: function(item){
+		console.log(item);
+		var map = item.pricelevel12 ? item.pricelevel12 : item.pricelevel7;
+		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel7_formatted;
+		console.log(map);
 		if(item.pricelevel7 >= item.pricelevel6)
-			return item.pricelevel7_formatted;
+			return formatted;
 		else
-			return 'See Price in Cart';
+			return item.pricelevel6_formatted;
 	},
 	getTemplates: function(csvFile) {
 		var templates = {};
@@ -98,7 +100,6 @@ module.exports = {
 		return templates;
 	},
 	getItemId: function(itemPath, callback) {
-		console.log(itemPath);
 		buyItems = [];
 		getItems = [];
 		var data = fs.readFileSync(itemPath, 'utf8');
