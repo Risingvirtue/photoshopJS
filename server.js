@@ -242,12 +242,13 @@ function buildItems(items, headers, isBuy, template, callback){
 			output += headers[col];
 		}
 		output += '<form>\n';
-		for(var i = 0; i < items[col].length; i++){
+		for(var i = 0; i < items[col].length; i++) {
 			var itemId = items[col][i];
 			var itemInfo = ids[itemId];
 			if(i === 0 || i % 3 === 0 ){
 				output += '<div class="section group">\n';
 			}
+			var display = itemInfo.storedisplayname2;
 			
 			output += format(template, {
 				itemurl: domain + itemInfo.urlcomponent,
