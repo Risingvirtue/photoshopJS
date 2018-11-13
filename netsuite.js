@@ -6,24 +6,13 @@ var csv = require('csv');
 module.exports = {
 	getItem: function(itemids, callback){
 		
-		var url = 'https://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
-				  
-
-<<<<<<< HEAD
-		//console.log({itemids: itemids});
-	
-			
-			itemids = itemids.join(',');
-			url += itemids;
-			console.log(url);
-=======
+		
 		var url = 'https://www.toolup.com/api/items?c=855722&country=US&currency=USD&fieldset=details&include=facets&language=en&n=6&pricelevel=7&id=';
 		if ( Array.isArray(itemids) )
 			
 			itemids = itemids.join(',');
 		url += itemids;
 		console.log(url);
->>>>>>> 8f7eb21eb0022c0154244baca7ab9d580a8a88c5
 		https.get(url, function(response){
 
 			response.setEncoding('utf8');
@@ -123,17 +112,7 @@ module.exports = {
 		var data = fs.readFileSync(itemPath, 'utf8');
 			csv.parse(data, function(err, data){
 				var headers = data[0];
-<<<<<<< HEAD
-				var buyIndex = headers.indexOf('Buy');
-				var getIndex = headers.indexOf('Get');
-				for (var row = 1; row < data.length; row++){
-					if(data[row][buyIndex] !== '')
-						buyItems.push(data[row][buyIndex]);
-					if(data[row][getIndex] !== '')
-						getItems.push(data[row][getIndex]);
-				}
-=======
->>>>>>> 8f7eb21eb0022c0154244baca7ab9d580a8a88c5
+
 				
 				for (var col = 0; col < data[0].length; col++) {
 					var buyCol = [];

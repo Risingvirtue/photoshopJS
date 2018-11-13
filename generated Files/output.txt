@@ -1,0 +1,582 @@
+﻿<style>
+    h2.form-title {
+      text-align: center;
+      font-size: 30px  !important;
+      border-bottom: none !important;
+      padding: 20px 0 0 0 !important;
+    }
+    .top-border {
+      border-top: solid 1px #ccc;
+      padding-top:20px;
+    }
+
+        /*  SECTIONS  */
+    .section {
+        clear: both;
+        padding: 0px;
+    }
+
+    /*  COLUMN SETUP  */
+    .col {
+        display: block;
+        float:left;
+        margin: 1% 0 1% 1.8%;
+    }
+    .col:first-child { margin-left: 0; }
+
+    /*  GROUPING  */
+    .group:before,
+    .group:after { content:""; display:table; }
+    .group:after { clear:both;}
+    .group { zoom:1; /* For IE 6/7 */ }
+    
+    /*  GRID OF THREE  */
+    .span_3_of_3 { width: 100%; }
+    .span_2_of_3 { width: 65.6%; }
+    .span_1_of_3 { 
+      width: 31.2%; 
+     
+      
+    }
+
+    /*  GO FULL WIDTH BELOW 480 PIXELS */
+    @media only screen and (max-width: 760px) {
+        .col {  margin: 1% 0 1% 0%; }
+        .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    }
+    
+      .m12-input {
+      background: #3f454a;
+      color: #eee;
+      padding: 15px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    
+    .con-m12-image {
+      background: white;
+      color: #eee;
+      text-align:center;
+    }
+    
+    .con-m12-image img {
+      max-width: 400px;
+      height: 224px;
+      padding:20px;
+      box-sizing: border-box;
+    }
+    
+    .promo-button {
+      width: 75%:
+      background-color: #33bc09;
+      text-align: center;
+      height: 50px;
+    }
+    
+    .button-promo {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        border-radius: 6px;   
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition-property: background-color;
+        -moz-transition-property: background-color;
+        -o-transition-property: background-color;
+        transition-property: background-color;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        color: #ffffff;
+        text-shadow: none;
+        border: none;
+        height: 72px;
+        line-height: 32px;
+        width: 60% !important;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif !important;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 30px 0 50px 0;
+        text-decoration: none;
+        text-align: center;
+  
+        background-color: #33bc09;
+    }
+    
+    .button-promo:hover {
+        background-color: #38c30d;
+    }
+    .button-promo:active {
+        -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px #777777, 0px 3px 3px rgba(0, 0, 0, 0.03);
+        -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px #777777, 0px 3px 3px rgba(0, 0, 0, 0.03);
+        box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.03), inset 0px -1px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px #777777, 0px 3px 3px rgba(0, 0, 0, 0.03)
+    }
+    
+    .con-button {
+      text-align: center;
+    }
+    
+    input[type=radio   ]:not(old){
+       width: 99%;
+       height: 25px;
+       margin: 0;
+       padding: 0;
+       opacity: 0;
+       position: absolute;
+    }
+    
+    input[type=radio   ]:not(old) + label{
+      display: inline-block;
+      padding-left: 38px;
+      background: url('http://toolup-images1.toolup.com/landing-pages/m12-kit-builder/Check2.png') left top no-repeat;
+      line-height: 34px;
+      z-index: 100;
+    }
+
+    input[type=radio]:not(old):checked + label{
+      background-position: 0 -34px;
+    }
+    
+    label {
+      font-size: 16px !important;
+    }
+    .mobile-tile-info {
+     
+      text-align: center;
+      margin: 10px 0 20px 0;
+      height: 50px;
+    }
+    
+    .mobile-tile-info a {
+    color: #3a81b2;
+    }
+
+    .mobile-tile-info p {
+      margin: 0 0 0 0;
+      line-height: 20px;
+    }
+    
+    b.tile-our-price {
+      display:inline-block;
+    }
+
+    .tile-container {
+      width: 100%;
+      border: solid 1px #ccc;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+      overflow: hidden;
+    }
+    
+    .span_1_of_3 b {
+      color: #db011c;
+    }
+   
+    @media only screen and (max-width: 760px) {
+      .overlay {
+        width:87.5%;
+      }
+      
+      .mobile-tile-info {
+        display: block;
+      }
+      .overlay:hover {
+      opacity: 0;
+      }
+      .button-promo {
+      width:100% !important;
+      }
+    }
+    .hero {
+        margin: -57px 0 0 0
+    }
+    
+    #promo-header {
+      background-position: right;
+      background-repeat: no-repeat;
+      background-color: #db011c;
+      height:254px
+    }
+    #header-text {
+    text-align: left;
+    padding: 20px 0 0 50px;
+    color: white;
+    width: 95%;
+    float: left;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif !important;
+    line-height: 19px;
+    box-sizing: border-box;
+    }
+    #header-image {
+      float:right;
+      width:30%;
+    } 
+    #header-text h2 {
+    margin: 5px 0 10px 0;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif;
+    }
+    #header-text h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    }
+    #header-text p {
+    color: white;
+    }
+    #header-logo img {
+        width: 360px;
+    }
+    @media only screen and (max-width: 900px) {
+        #promo-header { 
+          height: initial; 
+          background-color: initial;
+
+        }
+        #header-image { 
+          display:none;
+        }
+        #header-text { 
+          width:100%;
+          text-align:center;
+          background-color: #db011c;
+          padding: 30px 50px;
+          margin-bottom:25px
+        } 
+       #header-logo img{ 
+          max-width: 100%;
+        } 
+    } 
+    
+    .disabled-button {
+    background-color: lightgrey !important;
+    }
+  </style><h2 class="form-title top-border">Purchase a select tool below.</h2>
+<form>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XT333X1-BL1860B_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="428479">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XT333X1 18V LXT Lithium-Ion Brushless 3-Pc. Combo Kit with FREE 6.0 Battery <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XT328M-BL1860B_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="428480">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XT328M 18 Volt LXT Lithium-Ion Brushless Cordless 3 Tool Combo Kit with FREE 6.0 Battery <b class="tile-our-price">Our Price: $399.00</b></p>
+        <p><a href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XT269M_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="365388">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XT269M 18V LXT Li-Ion BL 2-Piece Kit 4.0 Ah <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="http://www.toolup.com/Makita-XT269M-18V-LXT-Li-Ion-BL-2-Piece-Kit-4.0-Ah" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+</form>
+<h2 class="form-title top-border">Choose your free item to go with it</h2>
+<form>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-BL1850B-2_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="382567">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita BL1850B-2 18V LXT Lithium-Ion 5.0Ah Battery, 2 Pack <b class="tile-our-price">$219.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-BL1850B-2-18V-LXT-Lithium-Ion-5-0Ah-Battery-2-Pack_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-DML805_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427826">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita DML805 18V LXT Li-Ion Cordless/Corded LED Flood Light (Tool Only) <b class="tile-our-price"> value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-DML805-18V-LXT-Li-Ion-Cordless-Corded-LED-Flood-Light-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-DUB183Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427827">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita DUB183Z 18V LXT Lithium-Ion Cordless Floor Blower Bare Tool <b class="tile-our-price">$109.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-DUB183Z-18V-LXT-Lithium-Ion-Cordless-Floor-Blower-Tool-only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XAG04Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="398062">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XAG04Z 18V LXT Li-Ion Brushless 4-1/2" / 5" Angle Grinder (Tool Only) <b class="tile-our-price">$119.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XAG04Z-18V-LXT-Li-Ion-Brushless-4-1-2-5-Angle-Grinder-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XDT11Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427828">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XDT11Z 18V Compact Lithium-Ion Cordless Impact Driver Bare Tool <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XDT11Z-18V-Compact-Lithium-Ion-Cordless-Impact-Driver-Bare-Tool_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XLC02ZB_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427829">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XLC02ZB 18V LXT Li-Ion Cordless Vacuum, Bare Tool <b class="tile-our-price">$89.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XLC02ZB-18V-LXT-Lithium-ion-Cordless-Vacuum-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XMT03Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="398884">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XMT03Z 18V LXT Li-Ion Cordless Multi-Tool Bare <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XMT03Z-18V-LXT-Li-Ion-Cordless-Multi-Tool-Bare_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XOC01Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427830">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XOC01Z 18V LXT Li-Ion Cordless Cut-Out Bare Tool <b class="tile-our-price">$129.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/18V-LXT-Li-Ion-Cordless-Cut-Out-Tool-Bare-Tool_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XRJ01Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="398882">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XRJ01Z 18V LXT Lithium-Ion Cordless Compact Recipro Saw Bare Tool <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XRJ01Z-18V-LXT-Lithium-Ion-Cordless-Compact-Recipro-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XRJ04Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="382526">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XRJ04Z 18V Li-Ion Cordless Reciprocating Saw (Tool Only) <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XRJ04Z-18V-Li-Ion-Cordless-Reciprocating-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XRM08B_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="398886">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XRM08B 18V LXT / 12V Max CXT Cordless Bluetooth Job Site Speaker <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XRM08B-18V-LXT-12V-Max-CXT-Cordless-Bluetooth-Job-Site-Speaker_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XSF03Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427822">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XSF03Z 18V LXT Li-Ion Brushless Drywall Screwdriver, Tool Only <b class="tile-our-price">$149.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XSF03Z-18V-LXT-Li-Ion-Brushless-Drywall-Screwdriver-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XSS02Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="333522">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XSS02Z 18V LXT Lithium-Ion Cordless 6-1/2" Circular Saw (Tool Only) <b class="tile-our-price">$99.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XSS02Z-18V-LXT-Lithium-Ion-Cordless-6-1-2-Circular-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Makita-XTR01Z_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="427824">
+        <label for="c1"><span></span>I want this free item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>Makita XTR01Z 18V LXT Brushless Cordless Compact Router, Bare Tool <b class="tile-our-price">$129.00 value</b></p>
+            
+        <p><a href="http://www.toolup.com/Makita-XTR01Z-18V-LXT-Brushless-Cordless-Compact-Router-Bare-Tool_2" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+</form>
+  <div class="con-button">
+  <input type="hidden" name="promocode" value="m18fuelt1" />
+  <input type="submit" class="button-promo disabled-button" value="Choose your tools from the options above" data-action="submitPromo" disabled> 
+  </div>
+  </form>
+  
+  <script>
+  $(document).ready(function() {
+    $('.m12-input input[type=radio]').click(function() {
+        var numRadiosChecked = $('input:checked').length;
+        
+        if (numRadiosChecked >= 2) {
+        	$('.button-promo').prop('disabled',false).removeClass('disabled-button').val('Add selection to cart');
+        }
+    });
+  });
+  </script>

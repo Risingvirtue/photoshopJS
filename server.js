@@ -33,15 +33,12 @@ for (var i = 0; i < csvFile.length; i++) {
 
 var csvPath = itemFolder + '/' + csvFile;
 var saveFolder = directory + '/img/Result';
-<<<<<<< HEAD
 if (csvFile.indexOf('.csv') == -1) {
 	console.log('Please include a csv file in the items folder.');
 	return;
 }
-=======
 
 var ids = {};
->>>>>>> 8f7eb21eb0022c0154244baca7ab9d580a8a88c5
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
 	socket.on('renderJSON', renderJSON);
@@ -79,33 +76,6 @@ function newConnection(socket) {
 				}
 			}
 			
-<<<<<<< HEAD
-			for (var j = 0; j < data.getItems.length; j++) {
-				ids[data.getItems[j]] = false;
-			}
-			var buyIndex = 0;
-			var getIndex = 0;
-			//console.log('test', buyItems[buyIndex], getItems[getIndex]);
-			
-			function getBuyItems() {
-				netsuite.getItem(buyItems[buyIndex], function(err, data){
-					if (typeof data != "undefined") {
-						for (var i = 0; i < data.length; i++) {
-							ids[data[i].internalid] = true;
-						}
-						
-						buyItemData = buyItemData.concat(data);
-					}
-					
-					buyIndex++;
-					if (buyIndex < buyItems.length) {
-						getBuyItems();
-					}
-				});
-			}
-=======
-			
->>>>>>> 8f7eb21eb0022c0154244baca7ab9d580a8a88c5
 			
 			function getAllItems() {
 				var sliced = idArr.slice(10 * index, 10 * (index + 1));
@@ -130,22 +100,9 @@ function newConnection(socket) {
 		});
 		
 		interval = setInterval(function() {
-<<<<<<< HEAD
-			//console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
-			var notComplete = [];
-			for (var id in ids) {
-				if (!ids[id]) {
-					notComplete.push(id);
-				}
-			}
-			console.log({notComplete: notComplete});
-			if (buyItemData.length == numBuyItems && getItemData.length == numGetItems) {
-				//console.log(buyItemData.length, getItemData.length)
-=======
 			//console.log(Math.min(100, (index * 1000) / idArr.length) + ' % done');
 			if (index * 10 > idArr.length) {
-				
->>>>>>> 8f7eb21eb0022c0154244baca7ab9d580a8a88c5
+
 				clearInterval(interval);
 				fillTemplate(buyItems[0], function(err, data) {
 					
