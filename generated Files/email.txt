@@ -3,11 +3,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Makita-XT333X1-BL1860B_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2416-20_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Makita-XT328M-BL1860B_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2503-20_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -15,23 +15,64 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>ZZ Makita XT333X1-BL1860B</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery"><p style="font-weight:bold; font-size: 20px; margin:0px">hium-Ion Brushless 3-Pc. Combo Kit with FREE 6.0 Battery</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$1,046.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p>Milwaukee 2416-20</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only"><p style="font-weight:bold; font-size: 20px; margin:0px">M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$338.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$199.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery">
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>ZZ Makita XT328M-BL1860B</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery">
-            <p style="font-weight:bold; font-size: 20px; margin:0px"> Lithium-Ion Brushless Cordless 3 Tool Combo Kit with FREE 6.0 Battery 
+          <p>Milwaukee 2503-20</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL 1/2" Drill Driver- Bare Tool 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$669.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$201.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$119.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery">
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+      </td>
+	</tr>
+  
+
+
+	<tr>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
+		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2504-20_01.jpg" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td width="320" height="280" bgcolor="#ffffff">
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2520-20_01.jpg" width="660" height="844" alt="">
+          </a>
+        </td>
+		<td rowspan="2">
+			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
+	</tr>
+	<tr>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>Milwaukee 2504-20</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool"><p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL 1/2" Hammer Drill- Bare Tool</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$220.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$129.00</strong>
+          </p>
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool">
+            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
+            </p>
+          </a>
+        </td>
+		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
+          <p>Milwaukee 2520-20</p>
+          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL HACKZALL Recip Saw Tool Only 
+          </a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$253.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$139.00</strong>
+          </p>
+          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>

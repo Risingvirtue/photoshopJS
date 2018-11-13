@@ -124,7 +124,7 @@ function newConnection(socket) {
 							promocode: promocode,
 							numInput: buyItems.length + getItems.length
 						});
-						console.log(buyItems.length + getItems.length)
+						console.log(buyItems.length)
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
 							if (err) throw err;
 							console.log('The file output.txt has been saved.');
