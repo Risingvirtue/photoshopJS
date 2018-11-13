@@ -6,12 +6,12 @@ var csv = require('csv');
 module.exports = {
 	getItem: function(itemids, callback){
 
-		var url = 'https://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
+		var url = 'https://www.toolup.com/api/items?c=855722&country=US&currency=USD&fieldset=details&include=facets&language=en&n=6&pricelevel=7&id=';
 		if ( Array.isArray(itemids) )
 			
 			itemids = itemids.join(',');
 		url += itemids;
-		
+		console.log(url);
 		https.get(url, function(response){
 
 			response.setEncoding('utf8');
@@ -73,15 +73,21 @@ module.exports = {
 		else
 			return item.itemimages_detail.urls[0].url;
 	},
-	getPrice: function(item){
-		console.log(item);
-		var map = item.pricelevel12 ? item.pricelevel12 : item.pricelevel7;
+	getPrice: function(item, isBuy){
+		
+		
+		var map = item.pricelevel12 ? item.pricelevel12 : item.pricelevel6;
+		
+		var cartPrice = item.onlinecustomerprice_detail.onlinecustomerprice;
 		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel7_formatted;
-		console.log(map);
-		if(item.pricelevel7 >= item.pricelevel6)
+		
+		console.log('name: ', item.displayname, ',map: ', map, ',cart: ', cartPrice)
+		if(cartPrice >= map)
 			return formatted;
 		else
-			return item.pricelevel6_formatted;
+			return isBuy ? 'See Price in Cart' : item.item.onlinecustomerprice_detail.onlinecustomerprice_formatted;
+			
+			
 	},
 	getTemplates: function(csvFile) {
 		var templates = {};

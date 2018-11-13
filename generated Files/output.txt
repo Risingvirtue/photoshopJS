@@ -259,7 +259,8 @@
     .disabled-button {
     background-color: lightgrey !important;
     }
-  </style><form>
+  </style><h2 class="form-title top-border">Purchase a select tool below.</h2>
+<form>
 <div class="section group">
 	<div class="col span_1_of_3">
       <div class="tile-container">
@@ -273,7 +274,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only <b class="tile-our-price">Our Price: $199.00</b></p>
+            <p>Milwaukee 2416-20 M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only <b class="tile-our-price">Our Price: $199.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -289,7 +290,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/2" Drill Driver- Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
+            <p>Milwaukee 2503-20 M12 FUEL 1/2" Drill Driver- Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -305,7 +306,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/2" Hammer Drill- Bare Tool <b class="tile-our-price">Our Price: $129.00</b></p>
+            <p>Milwaukee 2504-20 M12 FUEL 1/2" Hammer Drill- Bare Tool <b class="tile-our-price">Our Price: $129.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -323,7 +324,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL HACKZALL Recip Saw Tool Only <b class="tile-our-price">Our Price: $139.00</b></p>
+            <p>Milwaukee 2520-20 M12 FUEL HACKZALL Recip Saw Tool Only <b class="tile-our-price">Our Price: $139.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -339,12 +340,13 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 5-3/8" Circular Saw-Tool Only <b class="tile-our-price">Our Price: $149.00</b></p>
+            <p>Milwaukee 2530-20 M12 FUEL 5-3/8" Circular Saw-Tool Only <b class="tile-our-price">Our Price: $149.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2530-20-M12-FUEL-5-3-8-Circular-Saw-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 </div>
 </form>
+<h2 class="form-title top-border">Purchase a select tool below.</h2>
 <form>
 <div class="section group">
 	<div class="col span_1_of_3">
@@ -359,7 +361,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/4" Hex 2-Speed Screwdriver <b class="tile-our-price">Our Price: $119.00</b></p>
+            <p>Milwaukee 2402-20 M12 FUEL 1/4" Hex 2-Speed Screwdriver <b class="tile-our-price">Our Price: $119.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2402-20-M12-FUEL-1-4-Hex-2-Speed-Screwdriver" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -375,7 +377,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/4" Impact Wrench <b class="tile-our-price">Our Price: $149.00</b></p>
+            <p>Milwaukee 2452-20 M12 FUEL 1/4" Impact Wrench <b class="tile-our-price">Our Price: $149.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2452-20-M12-FUEL-1-4-Impact-Wrench" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -391,7 +393,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 3/8" Impact Wrench <b class="tile-our-price">Our Price: $149.00</b></p>
+            <p>Milwaukee 2454-20 M12 FUEL 3/8" Impact Wrench (Tool Only) <b class="tile-our-price">Our Price: $149.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2454-20-M12-FUEL-3-8-Impact-Wrench" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -409,7 +411,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/4" Hex Impact Driver - Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
+            <p>Milwaukee 2553-20 M12 FUEL 1/4" Hex Impact Driver - Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2553-20-M12-FUEL-1-4-Hex-Impact-Driver-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -425,7 +427,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/4" Ratchet Bare Tool <b class="tile-our-price">Our Price: $159.00</b></p>
+            <p>Milwaukee 2556-20 M12 FUEL 1/4" Ratchet Bare Tool <b class="tile-our-price">Our Price: $159.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2556-20-M12-FUEL-1-4-Ratchet-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -441,7 +443,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 3/8" Ratchet Bare Tool <b class="tile-our-price">Our Price: $149.00</b></p>
+            <p>Milwaukee 2557-20 M12 FUEL 3/8" Ratchet Bare Tool <b class="tile-our-price">Our Price: $149.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2557-20-M12-FUEL-3-8-Ratchet-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -459,7 +461,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/2" Ratchet Bare Tool <b class="tile-our-price">Our Price: $169.00</b></p>
+            <p>Milwaukee 2558-20 M12 FUEL 1/2" Ratchet Bare Tool <b class="tile-our-price">Our Price: $169.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2558-20-M12-FUEL-1-2-Ratchet-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -475,7 +477,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only <b class="tile-our-price">Our Price: $199.00</b></p>
+            <p>Milwaukee 2416-20 M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only <b class="tile-our-price">Our Price: $199.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -491,7 +493,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/2" Drill Driver- Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
+            <p>Milwaukee 2503-20 M12 FUEL 1/2" Drill Driver- Bare Tool <b class="tile-our-price">Our Price: $119.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -509,7 +511,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 1/2" Hammer Drill- Bare Tool <b class="tile-our-price">Our Price: $129.00</b></p>
+            <p>Milwaukee 2504-20 M12 FUEL 1/2" Hammer Drill- Bare Tool <b class="tile-our-price">Our Price: $129.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -525,7 +527,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL HACKZALL Recip Saw Tool Only <b class="tile-our-price">Our Price: $139.00</b></p>
+            <p>Milwaukee 2520-20 M12 FUEL HACKZALL Recip Saw Tool Only <b class="tile-our-price">Our Price: $139.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -541,7 +543,7 @@
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>M12 FUEL 5-3/8" Circular Saw-Tool Only <b class="tile-our-price">Our Price: $149.00</b></p>
+            <p>Milwaukee 2530-20 M12 FUEL 5-3/8" Circular Saw-Tool Only <b class="tile-our-price">Our Price: $149.00</b></p>
         <p><a href="http://www.toolup.com/Milwaukee-2530-20-M12-FUEL-5-3-8-Circular-Saw-Tool-Only" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
@@ -562,7 +564,7 @@
         <label for="c1"><span></span>I want this free item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>~M12 REDLITHIUM CP2.0 & XC4.0 Starter Kit <b class="tile-our-price">$149.00 value</b></p>
+            <p>Milwaukee  48-59-2424P M12 REDLITHIUM CP2.0 & XC4.0 Starter Kit <b class="tile-our-price">$149.00 value</b></p>
             
         <p><a href="http://www.toolup.com/Milwaukee-48-59-2424P-M12-REDLITHIUM-CP2.0-XC4.0-Starter-Kit" target="_blank">View Tool Details</a></p>
       </div>

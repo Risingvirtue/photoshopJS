@@ -101,15 +101,13 @@ function newConnection(socket) {
 							socket.emit('email');
 					});
 				})
-				//for output.txt
-				//output += '<form>\n';
 				
-				buildItems(buyItems, null, templates.cyoaBuyItem, function(err, data){
+				//for output.txt
+				var buyHeaders = generateBuyHeaders(buyItems);
+				buildItems(buyItems, buyHeaders, true, templates.cyoaBuyItem, function(err, data){
 					output += data;
-					//output += '</form>\n';
-					
 					var getHeaders = generateGetHeaders(getItems);
-					buildItems(getItems, getHeaders, templates.cyoaGetItem, function(err, data){
+					buildItems(getItems, getHeaders, false, templates.cyoaGetItem, function(err, data){
 						output += data;
 						output += format(templates.cyoaFooter, {
 							promocode: promocode,
@@ -225,7 +223,7 @@ function fillTemplate(items, callback){
 	});
 }
 
-function buildItems(items, headers, template, callback){
+function buildItems(items, headers, isBuy, template, callback){
 	var output = '';
 	
 	for (var col = 0; col < items.length; col++) {
@@ -239,12 +237,13 @@ function buildItems(items, headers, template, callback){
 			if(i === 0 || i % 3 === 0 ){
 				output += '<div class="section group">\n';
 			}
+			
 			output += format(template, {
 				itemurl: domain + itemInfo.urlcomponent,
 				imageurl: netsuite.getImage(itemInfo),
 				internalid: itemInfo.internalid,
-				itemname: itemInfo.displayname,
-				price: netsuite.getPrice(itemInfo)
+				itemname: itemInfo.storedisplayname2,
+				price: netsuite.getPrice(itemInfo, isBuy)
 			});
 			output += '\n';
 			
@@ -256,6 +255,16 @@ function buildItems(items, headers, template, callback){
 	}
 	callback(null, output);
 }
+
+function generateBuyHeaders(buyItems) {
+	var buyArr = [];
+	for (var i = 0; i < buyItems.length; i++) {
+		
+		buyArr.push('<h2 class="form-title top-border">Purchase a select tool below.</h2>\n');
+	}
+	return buyArr;
+}
+
 
 function generateGetHeaders(getItems) {
 	if (getItems.length == 1) {
