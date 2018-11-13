@@ -12,7 +12,7 @@ module.exports = {
 			
 			itemids = itemids.join(',');
 		url += itemids;
-		console.log(url);
+		
 		https.get(url, function(response){
 
 			response.setEncoding('utf8');
@@ -82,7 +82,7 @@ module.exports = {
 		var cartPrice = item.onlinecustomerprice_detail.onlinecustomerprice;
 		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel7_formatted;
 		
-		console.log('name: ', item.displayname, ',map: ', map, ',cart: ', cartPrice)
+	
 		if(cartPrice >= map)
 			return formatted;
 		else

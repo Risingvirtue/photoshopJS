@@ -124,7 +124,7 @@ function newConnection(socket) {
 							promocode: promocode,
 							numInput: buyItems.length + getItems.length
 						});
-						
+						console.log(buyItems.length + getItems.length)
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
 							if (err) throw err;
 							console.log('The file output.txt has been saved.');
@@ -211,7 +211,7 @@ function fillTemplate(items, callback){
 			if(i % 2 == 0) {
 				var item1 = ids[items[i]];
 				var item2 = ids[items[i + 1]];
-				console.log('i', i);
+		
 				template = format(data, {
 					urlcomponent1: domain + item1.urlcomponent,
 					itemimagesdetail1: netsuite.getImage(item1),
