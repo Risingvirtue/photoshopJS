@@ -19,7 +19,7 @@ function generateCYOA() {
 function output() {
 	$('#message').html('Files have been saved.');
 	
-	$('#message').fadeOut(1000,function(err) {
+	$('#message').fadeOut(1000 , function(err) {
 		
 		$('#sunImage').fadeIn('slow');
 		resetInfo();
