@@ -1,18 +1,21 @@
 /* Returns item detail data as JSON object */
-var http = require('http');
+var https = require('https');
 var fs = require('fs');
 var csv = require('csv');
 
 module.exports = {
 	getItem: function(itemids, callback){
+		
+		var url = 'https://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
+				  
 
-		var url = 'http://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
-		if ( Array.isArray(itemids) )
+		//console.log({itemids: itemids});
+	
 			
 			itemids = itemids.join(',');
-		url += itemids;
-		//console.log(url);
-		http.get(url, function(response){
+			url += itemids;
+			console.log(url);
+		https.get(url, function(response){
 
 			response.setEncoding('utf8');
 
@@ -39,12 +42,12 @@ module.exports = {
 	},
 	getTest: function(itemids, callback){
 
-		var url = 'http://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
+		var url = 'https://www.toolup.com/api/items?include=facets&fieldset=details&facet.exclude=custitem_brand_applied%2Ccustitem_category_applied%2Ccustitem_featured_home_item&language=en&country=US&currency=USD&pricelevel=7&c=855722&n=2&id=';
 		if ( Array.isArray(itemids) )
 			itemids = itemids.join(',');
 		url += itemids;
 		
-		http.get(url, function(response){
+		https.get(url, function(response){
 
 			response.setEncoding('utf8');
 
@@ -104,8 +107,8 @@ module.exports = {
 		var data = fs.readFileSync(itemPath, 'utf8');
 			csv.parse(data, function(err, data){
 				var headers = data[0];
-				var buyIndex = headers.indexOf('Buy This');
-				var getIndex = headers.indexOf('Get This');
+				var buyIndex = headers.indexOf('Buy');
+				var getIndex = headers.indexOf('Get');
 				for (var row = 1; row < data.length; row++){
 					if(data[row][buyIndex] !== '')
 						buyItems.push(data[row][buyIndex]);

@@ -22,9 +22,21 @@ var directory = path.dirname(process.argv[1]);
 var folder1 = directory + '/img/Combo1';
 var folder2 = directory + '/img/Combo2';
 var itemFolder = directory + '/items';
-var csvFile = fs.readdirSync(itemFolder)[0];
+var csvFile = fs.readdirSync(itemFolder);
+for (var i = 0; i < csvFile.length; i++) {
+	if (csvFile[i].indexOf('.csv') != -1) {
+		csvFile = csvFile[i];
+		break;
+	}
+
+}
+
 var csvPath = itemFolder + '/' + csvFile;
 var saveFolder = directory + '/img/Result';
+if (csvFile.indexOf('.csv') == -1) {
+	console.log('Please include a csv file in the items folder.');
+	return;
+}
 function newConnection(socket) {
 	console.log('New Connection: ' + socket.id);
 	socket.on('renderJSON', renderJSON);
@@ -59,8 +71,8 @@ function newConnection(socket) {
 			}
 			var buyIndex = 0;
 			var getIndex = 0;
+			//console.log('test', buyItems[buyIndex], getItems[getIndex]);
 			
-	
 			function getBuyItems() {
 				netsuite.getItem(buyItems[buyIndex], function(err, data){
 					if (typeof data != "undefined") {
@@ -72,7 +84,7 @@ function newConnection(socket) {
 					}
 					
 					buyIndex++;
-					if (buyIndex < numBuyItems) {
+					if (buyIndex < buyItems.length) {
 						getBuyItems();
 					}
 				});
@@ -98,7 +110,7 @@ function newConnection(socket) {
 		});
 		
 		interval = setInterval(function() {
-			console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
+			//console.log({buyLength: buyItemData.length, currBuy: numBuyItems, getLength: getItemData.length, currGet: numGetItems});
 			var notComplete = [];
 			for (var id in ids) {
 				if (!ids[id]) {
@@ -107,7 +119,7 @@ function newConnection(socket) {
 			}
 			console.log({notComplete: notComplete});
 			if (buyItemData.length == numBuyItems && getItemData.length == numGetItems) {
-				
+				//console.log(buyItemData.length, getItemData.length)
 				clearInterval(interval);
 				fillTemplate(buyItemData, function(err, data) {
 					
