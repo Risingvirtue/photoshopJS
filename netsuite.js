@@ -80,13 +80,14 @@ module.exports = {
 		var map = item.pricelevel12 ? item.pricelevel12 : item.pricelevel6;
 		
 		var cartPrice = item.onlinecustomerprice_detail.onlinecustomerprice;
+		
 		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel7_formatted;
 		
 	
 		if(cartPrice >= map)
 			return formatted;
 		else
-			return isBuy ? 'See Price in Cart' : item.item.onlinecustomerprice_detail.onlinecustomerprice_formatted;
+			return isBuy ? 'See Price in Cart' : item.onlinecustomerprice_detail.onlinecustomerprice_formatted;
 			
 			
 	},
