@@ -81,13 +81,18 @@ module.exports = {
 		
 		var cartPrice = item.onlinecustomerprice_detail.onlinecustomerprice;
 		
-		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel7_formatted;
+		var formatted = item.pricelevel12 ? item.pricelevel12_formatted : item.pricelevel6_formatted;
 		
-	
-		if(cartPrice >= map)
+		if (map == 0) {
+			return item.onlinecustomerprice_detail.onlinecustomerprice_formatted;
+		}
+		
+		if(cartPrice >= map) {
 			return formatted;
-		else
+		}
+		else {
 			return isBuy ? 'See Price in Cart' : item.onlinecustomerprice_detail.onlinecustomerprice_formatted;
+		}
 			
 			
 	},

@@ -344,7 +344,7 @@
         <label for="c1"><span></span>I want this free item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita DML805 18V LXT Li-Ion Cordless/Corded LED Flood Light (Tool Only) <b class="tile-our-price"> value</b></p>
+            <p>Makita DML805 18V LXT Li-Ion Cordless/Corded LED Flood Light (Tool Only) <b class="tile-our-price">$107.05 value</b></p>
             
         <p><a href="http://www.toolup.com/Makita-DML805-18V-LXT-Li-Ion-Cordless-Corded-LED-Flood-Light-Tool-Only_2" target="_blank">View Tool Details</a></p>
       </div>
