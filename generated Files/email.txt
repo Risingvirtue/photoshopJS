@@ -3,11 +3,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2416-20_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Dewalt-DCK267M2_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2503-20_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Dewalt-DCK267D2_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -15,64 +15,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2416-20</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only"><p style="font-weight:bold; font-size: 20px; margin:0px">M12 Fuel 5/8" Sds Plus Rotary Hammer Tool Only</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$338.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$199.00</strong>
+          <p>DeWalt DCK267M2</p>
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH"><p style="font-weight:bold; font-size: 20px; margin:0px">20V MAX XR Brushless Screwgun & Impact Driver Kit (4.0 AH)</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$664.04</span><strong style="margin-left:10px; color:red; font-size: 22px;">$369.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2416-20-M12-Fuel-5-8-Sds-Plus-Rotary-Hammer-Tool-Only">
+          <a style="text-decoration:none" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2503-20</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL 1/2" Drill Driver- Bare Tool 
+          <p>DeWalt DCK267D2</p>
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">20V MAX XR Drywall Screwgun & Impact Driver Kit (2.0Ah) 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$201.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$119.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$530.85</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2503-20-M12-FUEL-1-2-Drill-Driver-Bare-Tool">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-      </td>
-	</tr>
-  
-
-
-	<tr>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
-		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2504-20_01.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Milwaukee-2520-20_01.jpg" width="660" height="844" alt="">
-          </a>
-        </td>
-		<td rowspan="2">
-			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_11.jpg" width="10" height="560" alt=""></td>
-	</tr>
-	<tr>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2504-20</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool"><p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL 1/2" Hammer Drill- Bare Tool</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$220.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$129.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2504-20-M12-FUEL-1-2-Hammer-Drill-Bare-Tool">
-            <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
-            </p>
-          </a>
-        </td>
-		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>Milwaukee 2520-20</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only">
-            <p style="font-weight:bold; font-size: 20px; margin:0px">M12 FUEL HACKZALL Recip Saw Tool Only 
-          </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$253.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$139.00</strong>
-          </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Milwaukee-2520-20-M12-FUEL-HACKZALL-Recip-Saw-Tool-Only">
+          <a style="text-decoration:none" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
