@@ -266,48 +266,166 @@
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XT333X1-BL1860B_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCD996P2_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="428479">
+        <input type="radio" name="choose kit" value="357197">
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita XT333X1 18V LXT Lithium-Ion Brushless 3-Pc. Combo Kit with FREE 6.0 Battery <b class="tile-our-price">Our Price: $399.00</b></p>
-        <p><a href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery" target="_blank">View Tool Details</a></p>
+            <p>DeWalt DCD996P2 20V MAX XR Li-Ion Brushless 3 Speed Hammer Drill <b class="tile-our-price">Our Price: $299.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCD996P2-20V-MAX-XR-Li-Ion-Brushless-3-Speed-Hammer-Drill" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 	<div class="col span_1_of_3">
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XT328M-BL1860B_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCF880M2_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="428480">
+        <input type="radio" name="choose kit" value="5373">
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita XT328M 18 Volt LXT Lithium-Ion Brushless Cordless 3 Tool Combo Kit with FREE 6.0 Battery <b class="tile-our-price">Our Price: $399.00</b></p>
-        <p><a href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery" target="_blank">View Tool Details</a></p>
+            <p>DeWalt DCF880M2 20V MAX Lithium Ion 1/2" Impact Wrench Kit with Detent Pin <b class="tile-our-price">Our Price: $269.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCF880M2-20V-MAX-Lithium-Ion-1-2-Impact-Wrench-Kit-with-Detent-Pin" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 	<div class="col span_1_of_3">
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XT269M_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCF887M2_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="365388">
+        <input type="radio" name="choose kit" value="345712">
         <label for="c1"><span></span>I want this item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita XT269M 18V LXT Li-Ion BL 2-Piece Kit 4.0 Ah <b class="tile-our-price">Our Price: $299.00</b></p>
-        <p><a href="http://www.toolup.com/Makita-XT269M-18V-LXT-Li-Ion-BL-2-Piece-Kit-4.0-Ah" target="_blank">View Tool Details</a></p>
+            <p>DeWalt DCF887M2 20V MAX XR Brushless 1/4" 3-Speed Impact Driver <b class="tile-our-price">Our Price: $289.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCF887M2-20V-MAX-XR-Brushless-1-4-3-Speed-Impact-Driver" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCF890M2_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="366581">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCF890M2 20V MAX XR 3/8" Compact Impact Wrench Kit <b class="tile-our-price">Our Price: $319.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCF890M2-20V-MAX-XR-3-8-Compact-Impact-Wrench-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/DeWalt-DCF899P2_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="335599">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCF899P2 20v MAX* XR Brushless 1/2" Impact Wrench Kit w. Detent Anvil <b class="tile-our-price">Our Price: $449.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCF899P2-20v-MAX-XR-Brushless-1-2-Impact-Wrench-Kit-w-Detent-Anvil" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="Noimagefound">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p> <b class="tile-our-price">Our Price: nopricefound</b></p>
+        <p><a href="https://www.toolup.com/undefined" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/DEWA-DCGG571M1_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="256053">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCGG571M1 20V MAX Lithium Ion Grease Gun <b class="tile-our-price">Our Price: $199.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCGG571M1-20V-MAX-Lithium-Ion-Grease-Gun" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCS374P2_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="345705">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCS374P2 20V MAX Deep Cut Band Saw Kit <b class="tile-our-price">Our Price: $579.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCS374P2-20V-MAX-Deep-Cut-Band-Saw-Kit" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCS380P1_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="311971">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCS380P1 20V MAX Lithium Ion Reciprocating Saw Blade Kit with 5.0 Ah Battery <b class="tile-our-price">Our Price: $259.00</b></p>
+        <p><a href="https://www.toolup.com/Dewalt-20V-MAX-Lithium-Ion-Reciprocating-Saw-Blade-Kit-with-5-0ah-Battery" target="_blank">View Tool Details</a></p>
+      </div>
+	</div>
+</div>
+<div class="section group">
+	<div class="col span_1_of_3">
+      <div class="tile-container">
+        
+        <div class="con-m12-image">
+          <img src="https://www.toolup.com/product-images/DeWalt-DCS570P1_01.jpg">
+        </div>
+      </div>
+      <div class="m12-input">
+        <input type="radio" name="choose kit" value="380278">
+        <label for="c1"><span></span>I want this item.</label>
+      </div>
+      <div class="mobile-tile-info">
+            <p>DeWalt DCS570P1 7-1/4"  20V MAX Cordless Circular Saw with Brake Kit <b class="tile-our-price">Our Price: $279.00</b></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCS570P1-7-1-4-20V-MAX-Cordless-Circular-Saw-with-Brake-Kit" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 </div>
@@ -319,246 +437,51 @@
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-BL1850B-2_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCF887B_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="382567">
+        <input type="radio" name="choose kit" value="363110">
         <label for="c1"><span></span>I want this free item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita BL1850B-2 18V LXT Lithium-Ion 5.0Ah Battery, 2 Pack <b class="tile-our-price">$219.00 value</b></p>
+            <p>DeWalt DCF887B 20V MAX XR Brushless 1/4" 3-Speed Impact Driver Bare Tool <b class="tile-our-price">$139.00 value</b></p>
             
-        <p><a href="http://www.toolup.com/Makita-BL1850B-2-18V-LXT-Lithium-Ion-5-0Ah-Battery-2-Pack_2" target="_blank">View Tool Details</a></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCF887B-20V-MAX-XR-Brushless-1-4-3-Speed-Impact-Driver-Bare-Tool_2" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 	<div class="col span_1_of_3">
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-DML805_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCG412B_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="427826">
+        <input type="radio" name="choose kit" value="308079">
         <label for="c1"><span></span>I want this free item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita DML805 18V LXT Li-Ion Cordless/Corded LED Flood Light (Tool Only) <b class="tile-our-price">$107.05 value</b></p>
+            <p>DeWalt DCG412B 20V MAX Lithium Ion 4 1/2” Cut-Off Tool (Tool Only) <b class="tile-our-price">$129.00 value</b></p>
             
-        <p><a href="http://www.toolup.com/Makita-DML805-18V-LXT-Li-Ion-Cordless-Corded-LED-Flood-Light-Tool-Only_2" target="_blank">View Tool Details</a></p>
+        <p><a href="https://www.toolup.com/Dewalt-DCG412BPROMO-20V-Max-4-1-2Cutoff-Bare" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 	<div class="col span_1_of_3">
       <div class="tile-container">
         
         <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-DUB183Z_01.jpg">
+          <img src="https://www.toolup.com/product-images/Dewalt-DCS380B_01.jpg">
         </div>
       </div>
       <div class="m12-input">
-        <input type="radio" name="choose kit" value="427827">
+        <input type="radio" name="choose kit" value="331275">
         <label for="c1"><span></span>I want this free item.</label>
       </div>
       <div class="mobile-tile-info">
-            <p>Makita DUB183Z 18V LXT Lithium-Ion Cordless Floor Blower Bare Tool <b class="tile-our-price">$109.00 value</b></p>
+            <p>DeWalt DCS380B 20V MAX Li-Ion Reciprocating Saw (Tool Only) <b class="tile-our-price">$129.00 value</b></p>
             
-        <p><a href="http://www.toolup.com/Makita-DUB183Z-18V-LXT-Lithium-Ion-Cordless-Floor-Blower-Tool-only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XAG04Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="398062">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XAG04Z 18V LXT Li-Ion Brushless 4-1/2" / 5" Angle Grinder (Tool Only) <b class="tile-our-price">$119.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XAG04Z-18V-LXT-Li-Ion-Brushless-4-1-2-5-Angle-Grinder-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XDT11Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="427828">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XDT11Z 18V Compact Lithium-Ion Cordless Impact Driver Bare Tool <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XDT11Z-18V-Compact-Lithium-Ion-Cordless-Impact-Driver-Bare-Tool_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XLC02ZB_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="427829">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XLC02ZB 18V LXT Li-Ion Cordless Vacuum, Bare Tool <b class="tile-our-price">$89.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XLC02ZB-18V-LXT-Lithium-ion-Cordless-Vacuum-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XMT03Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="398884">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XMT03Z 18V LXT Li-Ion Cordless Multi-Tool Bare <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XMT03Z-18V-LXT-Li-Ion-Cordless-Multi-Tool-Bare_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XOC01Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="427830">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XOC01Z 18V LXT Li-Ion Cordless Cut-Out Bare Tool <b class="tile-our-price">$129.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/18V-LXT-Li-Ion-Cordless-Cut-Out-Tool-Bare-Tool_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XRJ01Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="398882">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XRJ01Z 18V LXT Lithium-Ion Cordless Compact Recipro Saw Bare Tool <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XRJ01Z-18V-LXT-Lithium-Ion-Cordless-Compact-Recipro-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XRJ04Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="382526">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XRJ04Z 18V Li-Ion Cordless Reciprocating Saw (Tool Only) <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XRJ04Z-18V-Li-Ion-Cordless-Reciprocating-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XRM08B_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="398886">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XRM08B 18V LXT / 12V Max CXT Cordless Bluetooth Job Site Speaker <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XRM08B-18V-LXT-12V-Max-CXT-Cordless-Bluetooth-Job-Site-Speaker_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XSF03Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="427822">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XSF03Z 18V LXT Li-Ion Brushless Drywall Screwdriver, Tool Only <b class="tile-our-price">$149.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XSF03Z-18V-LXT-Li-Ion-Brushless-Drywall-Screwdriver-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XSS02Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="333522">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XSS02Z 18V LXT Lithium-Ion Cordless 6-1/2" Circular Saw (Tool Only) <b class="tile-our-price">$99.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XSS02Z-18V-LXT-Lithium-Ion-Cordless-6-1-2-Circular-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
-      </div>
-	</div>
-	<div class="col span_1_of_3">
-      <div class="tile-container">
-        
-        <div class="con-m12-image">
-          <img src="https://www.toolup.com/product-images/Makita-XTR01Z_01.jpg">
-        </div>
-      </div>
-      <div class="m12-input">
-        <input type="radio" name="choose kit" value="427824">
-        <label for="c1"><span></span>I want this free item.</label>
-      </div>
-      <div class="mobile-tile-info">
-            <p>Makita XTR01Z 18V LXT Brushless Cordless Compact Router, Bare Tool <b class="tile-our-price">$129.00 value</b></p>
-            
-        <p><a href="http://www.toolup.com/Makita-XTR01Z-18V-LXT-Brushless-Cordless-Compact-Router-Bare-Tool_2" target="_blank">View Tool Details</a></p>
+        <p><a href="https://www.toolup.com/DeWalt-DCS380B-20V-MAX-Li-Ion-Reciprocating-Saw-Tool-Only_2" target="_blank">View Tool Details</a></p>
       </div>
 	</div>
 </div>

@@ -7,7 +7,7 @@ var path = require('path');
 var netsuite = require('./netsuite');
 var csv = require('csv');
 var format = require('string-template');
-var domain = 'http://www.toolup.com/';
+var domain = 'https://www.toolup.com/';
 
 app.use(express.static('public'));
 
@@ -44,6 +44,7 @@ function newConnection(socket) {
 	socket.on('renderJSON', renderJSON);
 	
 	function renderJSON(data) {
+
 		var promocode = data.promocode;
 		var output = '';
 		var templates = {};
@@ -75,6 +76,7 @@ function newConnection(socket) {
 					
 				}
 			}
+			console.log(idArr);
 			
 			
 			function getAllItems() {
@@ -85,7 +87,9 @@ function newConnection(socket) {
 				}
 				netsuite.getItem(sliced, function(err, data){
 					if (typeof data != "undefined") {
+
 						for (var i = 0; i < data.length; i++) {
+							console.log('data', data);
 							ids[data[i].internalid] = data[i];
 						}
 					}
@@ -100,8 +104,9 @@ function newConnection(socket) {
 		});
 		
 		interval = setInterval(function() {
+			console.log(idArr.length, index)
 			//console.log(Math.min(100, (index * 1000) / idArr.length) + ' % done');
-			if (index * 10 > idArr.length) {
+			if (index * 10 >= idArr.length) {
 
 				clearInterval(interval);
 				fillTemplate(buyItems[0], function(err, data) {
@@ -125,7 +130,6 @@ function newConnection(socket) {
 							numInput: buyItems.length + getItems.length
 						});
 						output += getDynamicPricingScript();
-						console.log(buyItems.length + getItems.length)
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
 							if (err) throw err;
 							console.log('The file output.txt has been saved.');

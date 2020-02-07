@@ -68,13 +68,13 @@ module.exports = {
 	},
 	// If image has extra _1, the object key changes from 'urls' to '1_1'
 	getImage: function(item){
+
 		if(typeof item.itemimages_detail.urls === 'undefined')
 			return getURL(item.itemimages_detail);
 		else
 			return item.itemimages_detail.urls[0].url;
 	},
 	getPrice: function(item, isBuy){
-		
 		
 		var map = item.pricelevel12 ? item.pricelevel12 : item.pricelevel6;
 		

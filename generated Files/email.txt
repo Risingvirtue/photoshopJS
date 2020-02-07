@@ -3,11 +3,11 @@
 		<td rowspan="2">
 			<img style="display: block; border-style: none;" src="http://hosting-source.bm23.com/11954/public/0000_03_July-Sep/DealsTemplate_08.jpg" width="10" height="560" alt=""></td>
 		<td width="320" height="280" bgcolor="#ffffff" style="border-right: solid 1px #cccccc;">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Makita-XT333X1-BL1860B_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Dewalt-DCK267M2_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td width="320" height="280" bgcolor="#ffffff">
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Makita-XT328M-BL1860B_01.jpg" width="660" height="844" alt="">
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah"><img style="display: block; border-style: none; max-height:230px; max-width:230px; margin-left:40px;" src="https://www.toolup.com/product-images/Dewalt-DCK267D2_01.jpg" width="660" height="844" alt="">
           </a>
         </td>
 		<td rowspan="2">
@@ -15,23 +15,23 @@
 	</tr>
 	<tr>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>ZZ Makita XT333X1-BL1860B</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery"><p style="font-weight:bold; font-size: 20px; margin:0px">hium-Ion Brushless 3-Pc. Combo Kit with FREE 6.0 Battery</a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$1,046.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p>DeWalt DCK267M2</p>
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH"><p style="font-weight:bold; font-size: 20px; margin:0px">20V MAX XR Brushless Screwgun & Impact Driver Kit (4.0 AH)</a>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$664.04</span><strong style="margin-left:10px; color:red; font-size: 22px;">$369.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Makita-XT333X1-18V-LXT-Lithium-Ion-Brushless-3-Pc.-Combo-Kit-with-FREE-6.0-Battery">
+          <a style="text-decoration:none" href="https://www.toolup.com/DeWalt-DCK267M2-20V-MAX-XR-Brushless-Screwgun-Impact-Driver-Kit-4-0-AH">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
         </td>
 		<td width="320" height="240" valign="top" style="font-size:16px; color:#333333; padding: 20px; border-bottom: solid 1px #cccccc" bgcolor="#ffffff">
-          <p>ZZ Makita XT328M-BL1860B</p>
-          <a style="text-decoration:none; color:#333333;" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery">
-            <p style="font-weight:bold; font-size: 20px; margin:0px"> Lithium-Ion Brushless Cordless 3 Tool Combo Kit with FREE 6.0 Battery 
+          <p>DeWalt DCK267D2</p>
+          <a style="text-decoration:none; color:#333333;" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah">
+            <p style="font-weight:bold; font-size: 20px; margin:0px">20V MAX XR Drywall Screwgun & Impact Driver Kit (2.0Ah) 
           </a>
-          <p style="color:grey;">List: <span style="text-decoration:line-through;">$669.00</span><strong style="margin-left:10px; color:red; font-size: 22px;">$399.00</strong>
+          <p style="color:grey;">List: <span style="text-decoration:line-through;">$530.85</span><strong style="margin-left:10px; color:red; font-size: 22px;">$299.00</strong>
           </p>
-          <a style="text-decoration:none" href="http://www.toolup.com/Makita-XT328M-18-Volt-LXT-Lithium-Ion-Brushless-Cordless-3-Tool-Combo-Kit-with-FREE-6.0-Battery">
+          <a style="text-decoration:none" href="https://www.toolup.com/DeWalt-DCK267D2-20V-MAX-XR-Drywall-Screwgun-Impact-Driver-Kit-2-0Ah">
             <p style="width:100%; background-color:#333333; line-height:40px; color:white; text-align:center; border-radius:4px; ">Shop Now
             </p>
           </a>
