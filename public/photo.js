@@ -1,12 +1,3 @@
-canvas = document.getElementById("canvas");
-ctx = canvas.getContext('2d');
-
-canvas1 = document.getElementById("1");
-ctx1 = canvas1.getContext('2d');
-canvas2 = document.getElementById("2");
-ctx2 = canvas2.getContext('2d');
-
-
 
 $(document).ready(function() {
 	//listening to localhost 3000

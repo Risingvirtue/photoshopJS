@@ -124,6 +124,7 @@ function newConnection(socket) {
 							promocode: promocode,
 							numInput: buyItems.length + getItems.length
 						});
+						output += getDynamicPricingScript();
 						console.log(buyItems.length + getItems.length)
 						fs.writeFile('./generated Files/output.txt', output, (err) => {
 							if (err) throw err;
@@ -211,7 +212,6 @@ function fillTemplate(items, callback){
 			if(i % 2 == 0) {
 				var item1 = ids[items[i]];
 				var item2 = ids[items[i + 1]];
-		
 				template = format(data, {
 					urlcomponent1: domain + item1.urlcomponent,
 					itemimagesdetail1: netsuite.getImage(item1),
@@ -236,7 +236,7 @@ function fillTemplate(items, callback){
 
 function buildItems(items, headers, isBuy, template, callback){
 	var output = '';
-	
+
 	for (var col = 0; col < items.length; col++) {
 		if (headers) {
 			output += headers[col];
@@ -244,12 +244,26 @@ function buildItems(items, headers, isBuy, template, callback){
 		output += '<form>\n';
 		for(var i = 0; i < items[col].length; i++) {
 			var itemId = items[col][i];
+			
 			var itemInfo = ids[itemId];
+			if (itemInfo == false) {
+				console.log(itemId);
+			}
 			if(i === 0 || i % 3 === 0 ){
 				output += '<div class="section group">\n';
 			}
 			var display = itemInfo.storedisplayname2;
-			
+			//console.log(itemInfo);
+			if (itemId == 384195) {
+				output += format(template, {
+					itemurl: domain + itemInfo.urlcomponent,
+					imageurl: netsuite.getImage(itemInfo),
+					internalid: itemInfo.internalid,
+					itemname: itemInfo.storedisplayname2,
+					price: netsuite.getPrice(itemInfo, isBuy)
+				});
+				continue;
+			}
 			output += format(template, {
 				itemurl: domain + itemInfo.urlcomponent,
 				imageurl: netsuite.getImage(itemInfo),
@@ -289,4 +303,86 @@ function generateGetHeaders(getItems) {
 		}
 		return header;
 	}
+}
+
+function getDynamicPricingScript() {
+	var dynamicPriceScript = `<script>
+try {
+  var priceRegex = /\$(\d+)/;
+  var addToCartReg = /\$(\d+).+/;
+  var prices = $(".m12-input").toArray();
+  var internalIds = [];
+  var intMap = prices.reduce((acc, price) => {
+    var internalId = price.children[0].value;
+    internalIds.push(internalId);
+    var nextElem = price.nextElementSibling;
+    var priceElem = nextElem.children[0];
+    var priceValue = priceElem.innerHTML.match(priceRegex)[1];
+    acc[internalId] = { htmlElement: priceElem, price: priceValue };
+    return acc;
+  }, {});
+  var itemIds = generateRegex();
+} catch (e) {}
+async function generateRegex() {
+  var param = internalIds.join(",");
+  // var url = 'http://dev4.theplsstore.com/api/items?fieldset=cmsprice&limit=100&id='+param;
+  var url = 'https://www.toolup.com/api/items?fieldset=cmsprice&limit=100&id='+param;
+  var parsedData = await fetchAsync(url);
+  var priceToUse = comparePrices(intMap, parsedData);
+  changeElement(priceToUse);
+  return priceToUse;
+}
+async function fetchAsync(url) {
+  var correctPricing = {};
+  let response = await fetch(url);
+  let data = await response.json();
+  var items = data.items;
+  for (let item of items) {
+    var {
+      internalid,
+      pricelevel7: cartPrice,
+      pricelevel6: mapPrice
+    } = item;
+    if (typeof itemDict == "object") {
+      itemDict[internalid].price = cartPrice;
+    }
+    if (parseFloat(cartPrice) < parseFloat(mapPrice)) {
+      cartPrice = null;
+    }
+    correctPricing[internalid] = cartPrice;
+  }
+  return correctPricing;
+}
+function comparePrices(oldPrice, newPrice) {
+  var priceToChange = [];
+  for (let [internalId, container] of Object.entries(oldPrice)) {
+    var { price, htmlElement } = container;
+    var comparisonPrice = newPrice[internalId];
+    if (price != comparisonPrice) {
+      priceToChange.push({
+        modifiedPrice: comparisonPrice,
+        htmlElement
+      });
+    }
+  }
+  return priceToChange;
+}
+function changeElement(priceToUse) {
+  priceToUse.forEach(({ modifiedPrice, htmlElement }) => {
+    if (!modifiedPrice) {
+      htmlElement.innerHTML = htmlElement.innerHTML.replace(
+        /Our Price:/,
+        "Add to cart to see price"
+      );
+    }
+    var formattedPrice = modifiedPrice ? "$$" + modifiedPrice : "";
+    var regexToUse = modifiedPrice ? priceRegex : addToCartReg;
+    htmlElement.innerHTML = htmlElement.innerHTML.replace(
+      regexToUse,
+      formattedPrice
+    );
+  });
+}
+</script>`
+	return dynamicPriceScript;
 }

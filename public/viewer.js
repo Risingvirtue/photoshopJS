@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	//listening to localhost 3000
 	
-	
 	$('#normal').css('height', window.innerHeight *2 /3);
 	socket.on('output', output);
 	
@@ -9,7 +8,6 @@ $(document).ready(function() {
 
 function generateCYOA() {
 	var promocode = $('#promocode').val();
-	console.log(promocode);
 	$("body").css({"background-color":"white"}); 
 	$('#sunImage').css('display', 'none');
 	socket.emit('renderJSON', {promocode: promocode});

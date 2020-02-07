@@ -90,6 +90,13 @@ canvas{
 	margin-left: 100px;
 	display: none;
 }
+
+
 #promocode {
 	margin-top: -100px;
 }
+
+#csv {
+	margin-top: -150px;
+}
+
